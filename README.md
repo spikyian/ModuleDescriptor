@@ -7,7 +7,7 @@ Please see the latest Module Descriptor File Format document for detailed infoma
 # file naming
 The naming of the module descriptors follows the following format
 
-<module name>-<module identity>-<version>.json
+\<module name\>-\<module identity\>-\<version\>.json
 
 Where the module identity is the combination of the manufacturer & module id in hex
 
