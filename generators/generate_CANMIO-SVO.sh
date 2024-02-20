@@ -23,47 +23,47 @@ do
       "displayTitle": "Servo $ch",
       "groupItems": [
         {
+          "displayTitle": "ON end position"
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((1+$ch*4)),
-          "displayTitle": "ON end position"
         },
         {
+          "displayTitle": "OFF end position"
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((2+$ch*4)),
-          "displayTitle": "OFF end position"
         },
         {
+          "displayTitle": "ON speed"
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((3+$ch*4)),
-          "displayTitle": "ON speed"
         },
         {
+          "displayTitle": "OFF speed"
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((4+$ch*4)),
-          "displayTitle": "OFF speed"
         },
         {
+          "displayTitle": "Cut off at end position",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 1,
-          "displayTitle": "Cut off at end position",
           "bit": $(($ch-1))
         },
         {
+          "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
-          "displayTitle": "Move at startup enable",
           "bit": $(($ch-1))
         },
         {
+          "displayTitle": "Startup position",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 2,
-          "displayTitle": "Startup position",
           "bit": $(($ch-1))
         },
         {
+          "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "displayTitle": "Wait for other servos to complete",
           "bit": $(($ch-1))
         },
         {
