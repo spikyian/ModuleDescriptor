@@ -3,6 +3,9 @@
 # Generate descriptor file for CANMIO-SVO modules.
 # Use this script to avoid duplication and reduce maintenance.
 
+# Note: This does not use NV37 for testing servos. Instead using the OutputOnWrite flag for end positions
+# which writes the corresponding end position NV, just like is done for CANMIO. Works fine.
+
 # Used to omit trailing comma at end of lists.
 ending[0]=',' # False - not end of list, add a comma.
 ending[1]=''  # True  - at end of list, omit trailing comma.
@@ -23,24 +26,26 @@ do
       "displayTitle": "Servo $ch",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((1+$ch*4)),
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((2+$ch*4)),
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": $((3+$ch*4)),
+          "nodeVariableIndex": $((3+$ch*4))
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": $((4+$ch*4)),
+          "nodeVariableIndex": $((4+$ch*4))
         },
         {
           "displayTitle": "Cut off at end position",
@@ -64,12 +69,6 @@ do
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": $(($ch-1))
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": $(($ch-1))
         }
       ]

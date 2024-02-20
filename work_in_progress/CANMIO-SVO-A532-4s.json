@@ -8,24 +8,26 @@
       "displayTitle": "Servo 1",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 5,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 6,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 7,
+          "nodeVariableIndex": 7
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 8,
+          "nodeVariableIndex": 8
         },
         {
           "displayTitle": "Cut off at end position",
@@ -49,12 +51,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 0
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 0
         }
       ]
@@ -64,24 +60,26 @@
       "displayTitle": "Servo 2",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 9,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 10,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 11,
+          "nodeVariableIndex": 11
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 12,
+          "nodeVariableIndex": 12
         },
         {
           "displayTitle": "Cut off at end position",
@@ -105,12 +103,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 1
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 1
         }
       ]
@@ -120,24 +112,26 @@
       "displayTitle": "Servo 3",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 13,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 14,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 15,
+          "nodeVariableIndex": 15
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 16,
+          "nodeVariableIndex": 16
         },
         {
           "displayTitle": "Cut off at end position",
@@ -161,12 +155,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 2
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 2
         }
       ]
@@ -176,24 +164,26 @@
       "displayTitle": "Servo 4",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 17,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 18,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 19,
+          "nodeVariableIndex": 19
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 20,
+          "nodeVariableIndex": 20
         },
         {
           "displayTitle": "Cut off at end position",
@@ -217,12 +207,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 3
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 3
         }
       ]
@@ -232,24 +216,26 @@
       "displayTitle": "Servo 5",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 21,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 22,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 23,
+          "nodeVariableIndex": 23
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 24,
+          "nodeVariableIndex": 24
         },
         {
           "displayTitle": "Cut off at end position",
@@ -273,12 +259,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 4
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 4
         }
       ]
@@ -288,24 +268,26 @@
       "displayTitle": "Servo 6",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 25,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 26,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 27,
+          "nodeVariableIndex": 27
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 28,
+          "nodeVariableIndex": 28
         },
         {
           "displayTitle": "Cut off at end position",
@@ -329,12 +311,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 5
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 5
         }
       ]
@@ -344,24 +320,26 @@
       "displayTitle": "Servo 7",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 29,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 30,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 31,
+          "nodeVariableIndex": 31
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 32,
+          "nodeVariableIndex": 32
         },
         {
           "displayTitle": "Cut off at end position",
@@ -385,12 +363,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 6
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 6
         }
       ]
@@ -400,24 +372,26 @@
       "displayTitle": "Servo 8",
       "groupItems": [
         {
-          "displayTitle": "ON end position"
+          "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 33,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "OFF end position"
+          "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 34,
+          "OutputOnWrite": "true"
         },
         {
-          "displayTitle": "ON speed"
+          "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 35,
+          "nodeVariableIndex": 35
         },
         {
-          "displayTitle": "OFF speed"
+          "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": 36,
+          "nodeVariableIndex": 36
         },
         {
           "displayTitle": "Cut off at end position",
@@ -441,12 +415,6 @@
           "displayTitle": "Wait for other servos to complete",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 4,
-          "bit": 7
-        },
-        {
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 37,
-          "displayTitle": "Testing",
           "bit": 7
         }
       ]
