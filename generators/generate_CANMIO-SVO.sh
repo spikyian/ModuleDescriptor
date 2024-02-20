@@ -56,6 +56,12 @@ do
           "bit": $(($ch-1))
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": $(($ch-1))
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -63,15 +69,17 @@ do
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": $(($ch-1))},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": $(($ch-1))
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": $(($ch-1))
+          "bitMask": $((1<<($ch-1))),
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": $((1<<($ch-1))), "label": "Start at OFF position"}
+          ]
         }
       ]
     }${ending[$(($ch == 8))]}

@@ -38,6 +38,12 @@
           "bit": 0
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 0
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -45,15 +51,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 0},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 0
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 0
+          "bitMask": 1,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 1, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -92,6 +100,12 @@
           "bit": 1
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 1
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -99,15 +113,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 1},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 1
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 1
+          "bitMask": 2,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 2, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -146,6 +162,12 @@
           "bit": 2
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 2
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -153,15 +175,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 2},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 2
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 2
+          "bitMask": 4,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 4, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -200,6 +224,12 @@
           "bit": 3
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 3
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -207,15 +237,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 3},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 3
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 3
+          "bitMask": 8,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 8, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -254,6 +286,12 @@
           "bit": 4
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 4
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -261,15 +299,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 4},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 4
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 4
+          "bitMask": 16,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 16, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -308,6 +348,12 @@
           "bit": 5
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 5
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -315,15 +361,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 5},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 5
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 5
+          "bitMask": 32,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 32, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -362,6 +410,12 @@
           "bit": 6
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 6
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -369,15 +423,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 6},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 6
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 6
+          "bitMask": 64,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 64, "label": "Start at OFF position"}
+          ]
         }
       ]
     },
@@ -416,6 +472,12 @@
           "bit": 7
         },
         {
+          "displayTitle": "Wait for other servos to complete",
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 4,
+          "bit": 7
+        },
+        {
           "displayTitle": "Move at startup enable",
           "type": "NodeVariableBitSingle",
           "nodeVariableIndex": 3,
@@ -423,15 +485,17 @@
         },
         {
           "displayTitle": "Startup position",
-          "type": "NodeVariableBitSingle",
+          "visibilityLogic": { 
+            "nvBit": {"index": 3, "bit": 7},
+            "equals": 1
+          },
+          "type": "NodeVariableSelect",
           "nodeVariableIndex": 2,
-          "bit": 7
-        },
-        {
-          "displayTitle": "Wait for other servos to complete",
-          "type": "NodeVariableBitSingle",
-          "nodeVariableIndex": 4,
-          "bit": 7
+          "bitMask": 128,
+          "options": [
+            {"value": 0, "label": "Start at saved position"},
+            {"value": 128, "label": "Start at OFF position"}
+          ]
         }
       ]
     }
