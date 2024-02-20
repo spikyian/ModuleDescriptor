@@ -40,12 +40,14 @@ do
         {
           "displayTitle": "ON speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": $((3+$ch*4))
+          "nodeVariableIndex": $((3+$ch*4)),
+          "max": 7
         },
         {
           "displayTitle": "OFF speed",
           "type": "NodeVariableSlider",
-          "nodeVariableIndex": $((4+$ch*4))
+          "nodeVariableIndex": $((4+$ch*4)),
+          "max": 7
         },
         {
           "displayTitle": "Cut off at end position",
