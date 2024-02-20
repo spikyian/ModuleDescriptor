@@ -112,7 +112,8 @@ do
               "nodeVariableIndex": $((11+$ch*7)),
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "OutputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -159,7 +160,8 @@ do
               "nodeVariableIndex": $((12+$ch*7)),
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "OutputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
