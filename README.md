@@ -1,6 +1,8 @@
 # ModuleDescriptor
 VLCB/CBUS Module descriptor format &amp; examples.
 
+This format aims to provide a way to describe a module in a form that can be digested by a computer program to provide a meaningful user interface, without changing the software programming
+
 # documents
 Please see the latest Module Descriptor File Format document for detailed infomation.
 
