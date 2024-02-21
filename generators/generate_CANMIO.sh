@@ -113,7 +113,7 @@ do
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -161,7 +161,7 @@ do
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",

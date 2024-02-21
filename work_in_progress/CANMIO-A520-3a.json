@@ -98,7 +98,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -146,7 +146,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -346,7 +346,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -394,7 +394,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -594,7 +594,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -642,7 +642,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -842,7 +842,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -890,7 +890,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1090,7 +1090,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1138,7 +1138,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1338,7 +1338,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1386,7 +1386,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1586,7 +1586,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1634,7 +1634,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1834,7 +1834,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -1882,7 +1882,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2082,7 +2082,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2130,7 +2130,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2330,7 +2330,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2378,7 +2378,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2578,7 +2578,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2626,7 +2626,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2826,7 +2826,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -2874,7 +2874,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3074,7 +3074,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3122,7 +3122,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3322,7 +3322,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3370,7 +3370,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3570,7 +3570,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3618,7 +3618,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3818,7 +3818,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -3866,7 +3866,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "OutputOnWrite": "true"
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
