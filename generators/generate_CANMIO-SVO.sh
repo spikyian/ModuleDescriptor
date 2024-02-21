@@ -3,7 +3,7 @@
 # Generate descriptor file for CANMIO-SVO modules.
 # Use this script to avoid duplication and reduce maintenance.
 
-# Note: This does not use NV37 for testing servos. Instead using the OutputOnWrite flag for end positions
+# Note: This does not use NV37 for testing servos. Instead using the outputOnWrite flag for end positions
 # which writes the corresponding end position NV, just like is done for CANMIO. Works fine.
 
 # Used to omit trailing comma at end of lists.
@@ -29,13 +29,13 @@ do
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((1+$ch*4)),
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((2+$ch*4)),
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",

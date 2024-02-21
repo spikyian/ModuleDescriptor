@@ -11,13 +11,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 5,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 6,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -73,13 +73,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 9,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 10,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -135,13 +135,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 13,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 14,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -197,13 +197,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 17,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 18,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -259,13 +259,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 21,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 22,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -321,13 +321,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 25,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 26,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -383,13 +383,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 29,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 30,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
@@ -445,13 +445,13 @@
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 33,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 34,
-          "OutputOnWrite": "true"
+          "outputOnWrite": "true"
         },
         {
           "displayTitle": "ON speed",
