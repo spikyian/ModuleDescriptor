@@ -76,7 +76,8 @@
       "displayScale": 1,
       "displayUnits": "Milli Seconds",
       "max": 255,
-      "min": 0
+      "min": 0,
+      "OutputOnWrite": true
     },
     {
       "type": "NodeVariableSlider",
@@ -156,7 +157,8 @@
           "displayScale": 1,
           "displayUnits": "Milli Seconds",
           "max": 255,
-          "min": 0
+          "min": 0,
+          "OutputOnWrite": true
         },
         {
           "type": "NodeVariableTabs",
@@ -232,12 +234,89 @@
                     }
                   ]
                 }
-
               ]
             }
           ] 
         }
       ]
+    },
+    {
+      "type": "NodeVariableTabs",
+      "tabPanels": [
+        { "displayTitle": "Single Bit",
+          "items": [
+            {
+              "type": "NodeVariableBitSingle",
+              "nodeVariableIndex": 2,
+              "displayTitle": "Bit 0",
+              "displaySubTitle": "NV2",
+              "bit": 0
+            }
+          ]
+        },
+        { "displayTitle": "Group test",
+          "items": [
+            {
+              "type": "NodeVariableGroup",
+              "displayTitle": "Group 1",
+              "groupItems": [
+                {
+                  "type": "NodeVariableBitArray",
+                  "nodeVariableIndex": 1,
+                  "displayTitle": "Bit Array",
+                  "displaySubTitle": "NV1",
+                  "bitCollection":[
+                    {"bitPosition": 0, "label": "output 1"},
+                    {"bitPosition": 1, "label": "output 2"},
+                    {"bitPosition": 2, "label": "output 3"},
+                    {"bitPosition": 3, "label": "output 4"},
+                    {"bitPosition": 4, "label": "output 5"},
+                    {"bitPosition": 5, "label": "output 6"},
+                    {"bitPosition": 6, "label": "output 7"},
+                    {"bitPosition": 7, "label": "output 8"}
+                  ]
+                },
+                {
+                  "type": "NodeVariableBitSingle",
+                  "nodeVariableIndex": 2,
+                  "displayTitle": "Bit 0",
+                  "displaySubTitle": "NV2",
+                  "bit": 0
+                }
+              ]
+            },
+            {
+              "type": "NodeVariableGroup",
+              "displayTitle": "Group 2",
+              "groupItems": [
+                {
+                  "type": "NodeVariableSelect",
+                  "nodeVariableIndex": 6,
+                  "displayTitle": "Select",
+                  "displaySubTitle": "NV6",
+                  "options": [
+                  {"label": "Options 1", "value": 0},
+                  {"label": "Options 2", "value": 1},
+                  {"label": "Options 3", "value": 2},
+                  {"label": "Options 4", "value": 8}
+                  ]
+                },
+                {
+                  "type": "NodeVariableSlider",
+                  "nodeVariableIndex": 7,
+                  "displayTitle": "Slider",
+                  "displaySubTitle": "tab group slider",
+                  "badge": "Delay",
+                  "displayScale": 1,
+                  "displayUnits": "Milli Seconds",
+                  "max": 255,
+                  "min": 0
+                }
+              ]
+            }
+          ]
+        }
+      ] 
     },
     {
       "type": "NodeVariableTabs",
@@ -359,7 +438,85 @@
               "displayScale": 1,
               "displayUnits": "Milli Seconds",
               "max": 255,
+              "min": 0,
+              "OutputOnWrite": true
+            }
+          ]
+        }
+      ]        
+    },
+    {
+      "type": "NodeVariableTabs",
+      "tabPanels": [
+        { "displayTitle": "fill the label space to test scroll 1",
+          "items": [
+            {
+              "type": "NodeVariableSlider",
+              "nodeVariableIndex": 7,
+              "displayTitle": "Slider",
+              "displaySubTitle": "tab slider",
+              "badge": "Delay",
+              "displayScale": 1,
+              "displayUnits": "Milli Seconds",
+              "max": 255,
+              "min": 0,
+              "OutputOnWrite": true
+            }
+          ]
+        },
+        { "displayTitle": "fill the label space to test scroll 2",
+          "items": [
+            {
+              "type": "NodeVariableNumber",
+              "nodeVariableIndex": 5,
+              "displayTitle": "Number",
+              "displaySubTitle": "NV5",
+              "max": 255,
               "min": 0
+            }
+          ]
+        },
+        { "displayTitle": "fill the label space to test scroll 3",
+          "items": [
+            {
+              "type": "NodeVariableSlider",
+              "nodeVariableIndex": 7,
+              "displayTitle": "Slider",
+              "displaySubTitle": "tab slider",
+              "badge": "Delay",
+              "displayScale": 1,
+              "displayUnits": "Milli Seconds",
+              "max": 255,
+              "min": 0,
+              "OutputOnWrite": true
+            }
+          ]
+        },
+        { "displayTitle": "fill the label space to test scroll 4",
+          "items": [
+            {
+              "type": "NodeVariableNumber",
+              "nodeVariableIndex": 5,
+              "displayTitle": "Number",
+              "displaySubTitle": "NV5",
+              "max": 255,
+              "min": 0
+            }
+          ]
+        },
+        { "displayTitle": "fill the label space to test scroll 5",
+          "items": [
+            {
+              "type": "NodeVariableSlider",
+              "nodeVariableIndex": 7,
+              "displayTitle": "Slider",
+              "displaySubTitle": "tab slider",
+              "badge": "Delay",
+              "displayScale": 1,
+              "displayUnits": "Milli Seconds",
+              "max": 255,
+              "min": 0,
+              "OutputOnWrite": true
             }
           ]
         }
