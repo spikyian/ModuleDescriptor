@@ -122,16 +122,22 @@ do
               "nodeVariableIndex": $((11+$ch*7)),
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
-              "type": "NodeVariableSlider",
+              "displayTitle": "number of positions",
+              "displaySubTitle": "multi specific",
               "comment":"multi type only",
+              "type": "NodeVariableSelect",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 4 },
               "nodeVariableIndex": $((11+$ch*7)),
-              "displayTitle": "num pos",
-              "displaySubTitle": "multi specific",
-              "displayUnits": "steps"
+              "options": [
+                {"label": "1 position", "value": 1},
+                {"label": "2 positions", "value": 2},
+                {"label": "3 positions", "value": 3},
+                {"label": "4 positions", "value": 4}
+              ]
             },
             {
               "type": "NodeVariableSlider",
@@ -170,7 +176,8 @@ do
               "nodeVariableIndex": $((12+$ch*7)),
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -179,7 +186,8 @@ do
               "nodeVariableIndex": $((12+$ch*7)),
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -206,7 +214,8 @@ do
               "nodeVariableIndex": $((13+$ch*7)),
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -234,7 +243,8 @@ do
               "nodeVariableIndex": $((14+$ch*7)),
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableSlider",
@@ -253,7 +263,8 @@ do
               "nodeVariableIndex": $((15+$ch*7)),
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
-              "displayUnits": "steps"
+              "displayUnits": "steps",
+              "outputOnWrite": "true"
             },
             {
               "type": "NodeVariableBitArray",
