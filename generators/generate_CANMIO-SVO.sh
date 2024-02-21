@@ -87,6 +87,43 @@ EOF
 done
 
 cat <<EOF
+  ],
+  "eventVariables": [
+EOF
+
+for ch in 1 2 3 4 5 6 7 8
+do
+  cat <<EOF
+    {
+      "displayTitle": "Servo $ch",
+      "type": "EventVariableGroup",
+      "groupItems": [
+        {
+          "displayTitle": "Set Servo",
+          "type": "EventVariableBitSingle",
+          "eventVariableIndex": 1,
+          "bit": $(($ch-1))
+        },
+        {
+          "displayTitle": "Direction",
+          "visibilityLogic": { 
+            "evBit": {"index": 1, "bit": $(($ch-1))},
+            "equals": 1
+          },
+          "type": "EventVariableSelect",
+          "eventVariableIndex": 2,
+          "bitMask": $((1<<($ch-1))),
+          "options": [
+            {"value": 0, "label": "Set ON position"},
+            {"value": $((1<<($ch-1))), "label": "Set OFF position"}
+          ]
+        }
+      ]
+    }${ending[$(($ch == 8))]}
+EOF
+done
+
+cat <<EOF
   ]
 }
 EOF
