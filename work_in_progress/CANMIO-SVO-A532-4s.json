@@ -502,210 +502,233 @@
   ],
   "eventVariables": [
     {
-      "displayTitle": "Servo 1",
+      "displayTitle": "Consumed Event",
       "type": "EventVariableGroup",
+      "visibilityLogic": {
+        "evBit": { "index": 3, "bit": 7},
+        "equals": 0
+      },
       "groupItems": [
         {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 0
+          "displayTitle": "Servo 1",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 0
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 0},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 1,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 1, "label": "Set OFF position"}
+              ]
+            }
+          ]
         },
         {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 0},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 1,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 1, "label": "Set OFF position"}
+          "displayTitle": "Servo 2",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 1
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 1},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 2,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 2, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 3",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 2
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 2},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 4,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 4, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 4",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 3
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 3},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 8,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 8, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 5",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 4
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 4},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 16,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 16, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 6",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 5
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 5},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 32,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 32, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 7",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 6
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 6},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 64,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 64, "label": "Set OFF position"}
+              ]
+            }
+          ]
+        },
+        {
+          "displayTitle": "Servo 8",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Set Servo",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 1,
+              "bit": 7
+            },
+            {
+              "displayTitle": "Direction",
+              "visibilityLogic": { 
+                "evBit": {"index": 1, "bit": 7},
+                "equals": 1
+              },
+              "type": "EventVariableSelect",
+              "eventVariableIndex": 2,
+              "bitMask": 128,
+              "options": [
+                {"value": 0, "label": "Set ON position"},
+                {"value": 128, "label": "Set OFF position"}
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "displayTitle": "Servo 2",
+      "displayTitle": "Produced Event",
       "type": "EventVariableGroup",
+      "visibilityLogic": {
+        "evBit": { "index": 3, "bit": 7},
+        "equals": 1
+      },
       "groupItems": [
         {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 1
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 1},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 2,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 2, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 3",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 2
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 2},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 4,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 4, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 4",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 3
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 3},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 8,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 8, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 5",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 4
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 4},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 16,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 16, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 6",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 5
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 5},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 32,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 32, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 7",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 6
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 6},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 64,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 64, "label": "Set OFF position"}
-          ]
-        }
-      ]
-    },
-    {
-      "displayTitle": "Servo 8",
-      "type": "EventVariableGroup",
-      "groupItems": [
-        {
-          "displayTitle": "Set Servo",
-          "type": "EventVariableBitSingle",
-          "eventVariableIndex": 1,
-          "bit": 7
-        },
-        {
-          "displayTitle": "Direction",
-          "visibilityLogic": { 
-            "evBit": {"index": 1, "bit": 7},
-            "equals": 1
-          },
-          "type": "EventVariableSelect",
-          "eventVariableIndex": 2,
-          "bitMask": 128,
-          "options": [
-            {"value": 0, "label": "Set ON position"},
-            {"value": 128, "label": "Set OFF position"}
-          ]
+          
         }
       ]
     }
