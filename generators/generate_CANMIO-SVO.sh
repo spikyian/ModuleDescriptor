@@ -90,6 +90,22 @@ cat <<EOF
   ],
   "eventVariables": [
     {
+      "displayTitle": "Event Direction",
+      "type": "EventVariableSelect",
+      "eventVariableIndex": 3,
+      "bitMask": 128,
+      "options": [
+        {
+          "value": 0,
+          "label": "Consumed Event"
+        },
+        {
+          "value": 128,
+          "label": "Produced Event"
+        }
+      ]
+    },
+    {
       "displayTitle": "Consumed Event",
       "type": "EventVariableGroup",
       "visibilityLogic": {
