@@ -1,0 +1,97 @@
+// Copyright (C) Pete Brownlow 2014-2017   software@upsys.co.uk
+
+// File: CANPanel2585.lkr
+// Linker script for the CANPanel using the PIC18F2585 processor
+
+//  This work is licensed under the:
+//      Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+//   To view a copy of this license, visit:
+//      http://creativecommons.org/licenses/by-nc-sa/4.0/
+//   or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+//
+//   License summary:
+//    You are free to:
+//      Share, copy and redistribute the material in any medium or format
+//      Adapt, remix, transform, and build upon the material
+//
+//    The licensor cannot revoke these freedoms as long as you follow the license terms.
+//
+//    Attribution : You must give appropriate credit, provide a link to the license,
+//                   and indicate if changes were made. You may do so in any reasonable manner,
+//                   but not in any way that suggests the licensor endorses you or your use.
+//
+//    NonCommercial : You may not use the material for commercial purposes. **(see note below)
+//
+//    ShareAlike : If you remix, transform, or build upon the material, you must distribute
+//                  your contributions under the same license as the original.
+//
+//    No additional restrictions : You may not apply legal terms or technological measures that
+//                                  legally restrict others from doing anything the license permits.
+//
+//   ** For commercial use, please contact the original copyright holder(s) to agree licensing terms
+//
+//    This software is distributed in the hope that it will be useful, but WITHOUT ANY
+//    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
+
+// Added CBUS parameter block definition at fixed address - PNB 4/1/13
+
+#DEFINE _CODEEND _DEBUGCODESTART - 1
+#DEFINE _CEND _CODEEND + _DEBUGCODELEN
+#DEFINE _DATAEND _DEBUGDATASTART - 1
+#DEFINE _DEND _DATAEND + _DEBUGDATALEN
+
+LIBPATH .
+
+//    FILES c018i.o
+FILES clib.lib
+FILES p18F2585.lib
+
+CODEPAGE   NAME=bootloader START=0x0               END=0x7FF        PROTECTED
+CODEPAGE   NAME=vectors    START=0x800             END=0x81F        PROTECTED
+CODEPAGE   NAME=parameters START=0x820             END=0x84F        PROTECTED
+CODEPAGE   NAME=module_vars START=0x850            END=0x86F
+CODEPAGE   NAME=page       START=0x870             END=0x6FFF
+CODEPAGE   NAME=flimdata   START=0x7000            END=0x7FFF
+CODEPAGE   NAME=page2      START=0x8000            END=0xBFFF
+
+CODEPAGE   NAME=idlocs     START=0x200000          END=0x200007       PROTECTED
+CODEPAGE   NAME=config     START=0x300000          END=0x30000D       PROTECTED
+CODEPAGE   NAME=devid      START=0x3FFFFE          END=0x3FFFFF       PROTECTED
+CODEPAGE   NAME=eedata     START=0xF00000          END=0xF003FF       PROTECTED
+
+ACCESSBANK NAME=accessram  START=0x0               END=0x5F
+
+DATABANK   NAME=gpr0       START=0x60              END=0xFF
+DATABANK   NAME=gpr1       START=0x100             END=0x1FF
+DATABANK   NAME=gpr2       START=0x200             END=0x2FF
+DATABANK   NAME=gpr3       START=0x300             END=0x3FF
+DATABANK   NAME=gpr4       START=0x400             END=0x4FF
+DATABANK   NAME=gpr5       START=0x500             END=0x5FF
+DATABANK   NAME=gpr6       START=0x600             END=0x6FF
+DATABANK   NAME=gpr7       START=0x700             END=0x7FF
+DATABANK   NAME=gpr8       START=0x800             END=0x8FF
+DATABANK   NAME=gpr9       START=0x900             END=0x9FF
+DATABANK   NAME=gpr10      START=0xA00             END=0xAFF
+DATABANK   NAME=gpr11      START=0xB00             END=0xBFF
+DATABANK   NAME=gpr12      START=0xC00             END=0xCFF
+
+
+DATABANK   NAME=sfr13      START=0xD00             END=0xDFF          PROTECTED
+DATABANK   NAME=sfr14      START=0xE00             END=0xEFF          PROTECTED
+DATABANK   NAME=sfr15      START=0xF00             END=0xF5F          PROTECTED
+ACCESSBANK NAME=accesssfr  START=0xF60             END=0xFFF          PROTECTED
+
+SECTION    NAME=BOOT       ROM=bootloader
+SECTION    NAME=APP        ROM=page
+SECTION    NAME=CONFIG     ROM=config
+SECTION    NAME=PARAMETERS ROM=parameters  
+
+SECTION    NAME=MAIN_VARS  RAM=gpr0
+SECTION    NAME=CANRXB1    RAM=gpr2
+SECTION    NAME=CANRXB2    RAM=gpr3
+SECTION    NAME=CANTXB     RAM=gpr4
+
+SECTION    NAME=EEPROM      ROM=eedata
+// SECTION    NAME=BOOTFLAG    ROM=eeboot
+
+STACK SIZE=0xF0 RAM=gpr1

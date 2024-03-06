@@ -1,0 +1,7 @@
+Re: CANMIO-SVO V4s - details for NodeVariable 37?
+Post by crosland » Tue Feb 06, 2024 4:13 pm
+
+My notes on this say
+Learn mode is required for testing on/off. NV37 is written 129 – 136 for test ON outputs 1 -8, 1 – 8 for test OFF outputs 1 – 8. Module detects this in learn mode and creates an internal event.
+Finish button takes it out of learn mode, no further command sent.
+So bit 7 selects ON end when set and bits 2:0 select the output.

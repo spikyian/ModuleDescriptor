@@ -1,0 +1,28 @@
+
+Build options for CANACC5-8.asm
+
+This source can be built for 18F2480 or 18F25k80 PICs, for 4MHz or 16MHz resonator, and as CANACC5, CANACC8, CANMIO-OUT or CANBIP-out.
+
+Set the PIC type in your MPLAB or MPLABX project properties.  
+
+If you are using MPLABX, you can have different build confiurations within one project.
+
+   PIC18F2480 builds by default with PLL on and 4MHz resonator
+   PIC18F25k80 builds by default with PLL off and 16MHz resonator
+   
+(Note - internal processor clock speed is always 16MHz)
+   
+To override these defaults and force a build for 4Mhz or 16MHz resonator, set directive RES16M or RES4M in the project file/configuration
+
+Set the module type as a directive in the project file (MPLAB) or project configuration (MPLABX) from one of the following:
+
+CANACC5
+CANACC8
+CANMIO-OUT
+CANBIP-OUT
+
+Note that whilst you can build the CANMIO and CANBIP firmware for either PIC type and either resonator from this source, 
+only the 25k80 16MHz resonator versions are uploaded to the wiki, the other versions may be supplied to members on request. 
+
+This is to avoid cofusion from a plethora of different builds being available.
+
