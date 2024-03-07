@@ -11,5 +11,158 @@
         {"label": "2 - Set all taught states to ON", "value": 2}
       ]
     }
+  ],
+  "eventVariables": [
+    {
+      "displayTitle": "Event Direction",
+      "type": "EventVariableSelect",
+      "eventVariableIndex": 1,
+      "options": [
+        {
+          "value": 0,
+          "label": "Consumed Event"
+        },
+        {
+          "value": 1,
+          "label": "Produced Event"
+        }
+      ]
+    },
+    {
+      "displayTitle": "Consumed Event",
+      "type": "EventVariableGroup",
+      "visibilityLogic": {
+        "ev": 1,
+        "equals": 0
+      },
+      "groupItems": [
+        {
+          "displayTitle": "LED Action",
+          "type": "EventVariableSelect",
+          "eventVariableIndex": 13,
+          "options": [
+            { "value": 255, "label": "Normal" },
+            { "value": 254, "label": "ON Only" },
+            { "value": 253, "label": "OFF Only" },
+            { "value": 248, "label": "Flash" }
+          ]
+        },
+        {
+          "displayTitle": "LED 1",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Turn ON",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 5,
+              "bit": 0
+            },
+            {
+              "displayTitle": "Invert",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 9,
+              "bit": 0
+            }
+          ]
+        },
+        {
+          "displayTitle": "LED 2",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Turn ON",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 5,
+              "bit": 1
+            },
+            {
+              "displayTitle": "Invert",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 9,
+              "bit": 1
+            }
+          ]
+        },
+        {
+          "displayTitle": "LED 3",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Turn ON",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 5,
+              "bit": 2
+            },
+            {
+              "displayTitle": "Invert",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 9,
+              "bit": 2
+            }
+          ]
+        },
+        {
+          "displayTitle": "LED 4",
+          "type": "EventVariableGroup",
+          "groupItems": [
+            {
+              "displayTitle": "Turn ON",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 5,
+              "bit": 3
+            },
+            {
+              "displayTitle": "Invert",
+              "type": "EventVariableBitSingle",
+              "eventVariableIndex": 9,
+              "bit": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "displayTitle": "Produced Event",
+      "type": "EventVariableGroup",
+      "visibilityLogic": {
+        "ev": 1,
+        "equals": 1
+      },
+      "groupItems": [
+        {
+          "displayTitle": "Switch",
+          "type": "EventVariableNumber",
+          "eventVariableIndex": 2,
+          "min": 1,
+          "max": 32
+        },
+        {
+          "displayTitle": "Mode",
+          "type": "EventVariableSelect",
+          "eventVariableIndex": 3,
+          "bitMask": 15,
+          "options": [
+            { "value": 0, "label": "None" },
+            { "value": 1, "label": "ON/OFF" },
+            { "value": 3, "label": "OFF/ON (inverted)" },
+            { "value": 4, "label": "ON only" },
+            { "value": 6, "label": "OFF only" },
+            { "value": 8, "label": "ON/OFF push button" }
+          ]
+        },
+        {
+          "displayTitle": "Set LEDs",
+          "type": "EventVariableBitSingle",
+          "eventVariableIndex": 3,
+          "bit": 4
+        },
+        {
+          "displayTitle": "Send Short Event",
+          "type": "EventVariableBitSingle",
+          "eventVariableIndex": 3,
+          "bit": 5
+        }
+      ]
+    }
   ]
 }
