@@ -1797,7 +1797,7 @@
           "items": [
             { 
               "type": "NodeVariableGroup",
-              "displayTitle": "Locking control channel 15",
+              "displayTitle": "Lock control channel 15",
               "groupItems": [
                 {
                   "type": "NodeVariableBitArray",

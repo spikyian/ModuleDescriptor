@@ -554,8 +554,7 @@ done
 cat <<EOF
         }
       ]
-    },
-    {"comment":"end of node variables"}
+    }
   ],
   "comment":"start of event variables"
 EOF
