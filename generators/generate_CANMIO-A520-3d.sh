@@ -153,9 +153,10 @@ do
               "displayTitle": "magnet setup",
               "displaySubTitle": "ADC offset",
               "comment":"magnet type only",
-          	  "type": "NodeVariableNumber",
+              "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
-              "nodeVariableIndex": $((11+$ch*7))
+              "nodeVariableIndex": $((11+$ch*7)),
+              "displayUnits": "ADC Value"
             },
             {
               "type": "NodeVariableSlider",
