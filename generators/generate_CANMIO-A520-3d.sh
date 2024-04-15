@@ -156,7 +156,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
               "nodeVariableIndex": $((11+$ch*7)),
-              "displayUnits": "ADC Value"
+              "displayUnits": "milliVolts",
+              "displayScale": 1.22
             },
             {
               "type": "NodeVariableSlider",
@@ -215,7 +216,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 5 },
               "nodeVariableIndex": $((12+$ch*7)),
-              "displayUnits": "ADC value"
+              "displayUnits": "Volts",
+              "displayScale": 0.0196
             },
             {
               "displayTitle": "Threshold",
@@ -224,7 +226,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
               "nodeVariableIndex": $((12+$ch*7)),
-              "displayUnits": "ADC value"
+              "displayUnits": "milliVolts",
+              "displayScale": 1.22
             },
             {
               "type": "NodeVariableSlider",
@@ -261,7 +264,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 5 },
               "nodeVariableIndex": $((13+$ch*7)),
-              "displayUnits": "ADC values"
+              "displayUnits": "Volts",
+              "displayScale": 0.0196
             },
             {
               "displayTitle": "Hysteresis",
@@ -270,7 +274,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
               "nodeVariableIndex": $((13+$ch*7)),
-              "displayUnits": "ADC values"
+              "displayUnits": "milliVolts",
+              "displayScale": 1.22
             },
             {
               "type": "NodeVariableSlider",
@@ -308,7 +313,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
               "nodeVariableIndex": $((14+$ch*7)),
-              "displayUnits": "ADC value"
+              "displayUnits": "milliVolts",
+              "displayScale": 1.22
             },
             {
               "type": "NodeVariableSlider",
@@ -337,7 +343,8 @@ do
               "type": "NodeVariableSlider",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
               "nodeVariableIndex": $((15+$ch*7)),
-              "displayUnits": "ADC value"
+              "displayUnits": "milliVolts",
+              "displayScale": 1.22
             },
             {
               "type": "NodeVariableBitArray",
