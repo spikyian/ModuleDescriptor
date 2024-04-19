@@ -33,8 +33,8 @@
             {
               "type": "NodeVariableNumber",
               "nodeVariableIndex": 3,
-              "displayTitle": "Servo speed",
-              "displaySubTitle": "If >234 MULTI servo is moved this amount every 100ms. If <= 234 this is number of 20ms periods per step",
+              "displayTitle": "Multi Servo speed",
+              "displaySubTitle": "If >234 moves this amount every 100ms. If <= 234 number of 20ms periods per step",
               "displayUnits": "milliseconds"
             },
             {
