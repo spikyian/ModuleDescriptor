@@ -8002,7 +8002,7 @@
       "options": [
         {"value": 0, "label": "no event (0)"},
         {"value": 1, "label": "Startup event (1)"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 0, "label": "CH1 - Input Changed"},
               {"value": 1, "label": "CH1 - Input Changed"},
               {"value": 2, "label": "CH1 - Reached OFF"},
@@ -8013,7 +8013,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 0, "label": "CH1 - TWO_ON"},
               {"value": 2, "label": "CH1 - Reached MID"},
               {"value": 4, "label": "CH1 - AT2"},
@@ -8021,18 +8021,18 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 2, "label": "CH1 - Reached ON"},
               {"value": 4, "label": "CH1 - AT3"}
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "23", "labels": [
+        {"value": 12, "overload":{"nv": 23, "labels": [
               {"value": 0, "label": "CH2 - Input Changed"},
               {"value": 1, "label": "CH2 - Input Changed"},
               {"value": 2, "label": "CH2 - Reached OFF"},
@@ -8043,7 +8043,7 @@
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 0, "label": "CH2 - TWO_ON"},
               {"value": 2, "label": "CH2 - Reached MID"},
               {"value": 4, "label": "CH2 - AT2"},
@@ -8051,18 +8051,18 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 2, "label": "CH2 - Reached ON"},
               {"value": 4, "label": "CH2 - AT3"}
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "30", "labels": [
+        {"value": 16, "overload":{"nv": 30, "labels": [
               {"value": 0, "label": "CH3 - Input Changed"},
               {"value": 1, "label": "CH3 - Input Changed"},
               {"value": 2, "label": "CH3 - Reached OFF"},
@@ -8073,7 +8073,7 @@
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "30", "labels": [
+        {"value": 17, "overload":{"nv": 30, "labels": [
               {"value": 0, "label": "CH3 - TWO_ON"},
               {"value": 2, "label": "CH3 - Reached MID"},
               {"value": 4, "label": "CH3 - AT2"},
@@ -8081,18 +8081,18 @@
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 2, "label": "CH3 - Reached ON"},
               {"value": 4, "label": "CH3 - AT3"}
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "37", "labels": [
+        {"value": 20, "overload":{"nv": 37, "labels": [
               {"value": 0, "label": "CH4 - Input Changed"},
               {"value": 1, "label": "CH4 - Input Changed"},
               {"value": 2, "label": "CH4 - Reached OFF"},
@@ -8103,7 +8103,7 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "37", "labels": [
+        {"value": 21, "overload":{"nv": 37, "labels": [
               {"value": 0, "label": "CH4 - TWO_ON"},
               {"value": 2, "label": "CH4 - Reached MID"},
               {"value": 4, "label": "CH4 - AT2"},
@@ -8111,18 +8111,18 @@
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "37", "labels": [
+        {"value": 22, "overload":{"nv": 37, "labels": [
               {"value": 2, "label": "CH4 - Reached ON"},
               {"value": 4, "label": "CH4 - AT3"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "44", "labels": [
+        {"value": 24, "overload":{"nv": 44, "labels": [
               {"value": 0, "label": "CH5 - Input Changed"},
               {"value": 1, "label": "CH5 - Input Changed"},
               {"value": 2, "label": "CH5 - Reached OFF"},
@@ -8133,7 +8133,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "44", "labels": [
+        {"value": 25, "overload":{"nv": 44, "labels": [
               {"value": 0, "label": "CH5 - TWO_ON"},
               {"value": 2, "label": "CH5 - Reached MID"},
               {"value": 4, "label": "CH5 - AT2"},
@@ -8141,18 +8141,18 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "44", "labels": [
+        {"value": 26, "overload":{"nv": 44, "labels": [
               {"value": 2, "label": "CH5 - Reached ON"},
               {"value": 4, "label": "CH5 - AT3"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "44", "labels": [
+        {"value": 27, "overload":{"nv": 44, "labels": [
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "51", "labels": [
+        {"value": 28, "overload":{"nv": 51, "labels": [
               {"value": 0, "label": "CH6 - Input Changed"},
               {"value": 1, "label": "CH6 - Input Changed"},
               {"value": 2, "label": "CH6 - Reached OFF"},
@@ -8163,7 +8163,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "51", "labels": [
+        {"value": 29, "overload":{"nv": 51, "labels": [
               {"value": 0, "label": "CH6 - TWO_ON"},
               {"value": 2, "label": "CH6 - Reached MID"},
               {"value": 4, "label": "CH6 - AT2"},
@@ -8171,18 +8171,18 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "51", "labels": [
+        {"value": 30, "overload":{"nv": 51, "labels": [
               {"value": 2, "label": "CH6 - Reached ON"},
               {"value": 4, "label": "CH6 - AT3"}
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "51", "labels": [
+        {"value": 31, "overload":{"nv": 51, "labels": [
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "58", "labels": [
+        {"value": 32, "overload":{"nv": 58, "labels": [
               {"value": 0, "label": "CH7 - Input Changed"},
               {"value": 1, "label": "CH7 - Input Changed"},
               {"value": 2, "label": "CH7 - Reached OFF"},
@@ -8193,7 +8193,7 @@
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "58", "labels": [
+        {"value": 33, "overload":{"nv": 58, "labels": [
               {"value": 0, "label": "CH7 - TWO_ON"},
               {"value": 2, "label": "CH7 - Reached MID"},
               {"value": 4, "label": "CH7 - AT2"},
@@ -8201,18 +8201,18 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "58", "labels": [
+        {"value": 34, "overload":{"nv": 58, "labels": [
               {"value": 2, "label": "CH7 - Reached ON"},
               {"value": 4, "label": "CH7 - AT3"}
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "58", "labels": [
+        {"value": 35, "overload":{"nv": 58, "labels": [
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "65", "labels": [
+        {"value": 36, "overload":{"nv": 65, "labels": [
               {"value": 0, "label": "CH8 - Input Changed"},
               {"value": 1, "label": "CH8 - Input Changed"},
               {"value": 2, "label": "CH8 - Reached OFF"},
@@ -8223,7 +8223,7 @@
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "65", "labels": [
+        {"value": 37, "overload":{"nv": 65, "labels": [
               {"value": 0, "label": "CH8 - TWO_ON"},
               {"value": 2, "label": "CH8 - Reached MID"},
               {"value": 4, "label": "CH8 - AT2"},
@@ -8231,18 +8231,18 @@
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "65", "labels": [
+        {"value": 38, "overload":{"nv": 65, "labels": [
               {"value": 2, "label": "CH8 - Reached ON"},
               {"value": 4, "label": "CH8 - AT3"}
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "65", "labels": [
+        {"value": 39, "overload":{"nv": 65, "labels": [
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "72", "labels": [
+        {"value": 40, "overload":{"nv": 72, "labels": [
               {"value": 0, "label": "CH9 - Input Changed"},
               {"value": 1, "label": "CH9 - Input Changed"},
               {"value": 2, "label": "CH9 - Reached OFF"},
@@ -8253,7 +8253,7 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "72", "labels": [
+        {"value": 41, "overload":{"nv": 72, "labels": [
               {"value": 0, "label": "CH9 - TWO_ON"},
               {"value": 2, "label": "CH9 - Reached MID"},
               {"value": 4, "label": "CH9 - AT2"},
@@ -8261,18 +8261,18 @@
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "72", "labels": [
+        {"value": 42, "overload":{"nv": 72, "labels": [
               {"value": 2, "label": "CH9 - Reached ON"},
               {"value": 4, "label": "CH9 - AT3"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "72", "labels": [
+        {"value": 43, "overload":{"nv": 72, "labels": [
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "79", "labels": [
+        {"value": 44, "overload":{"nv": 79, "labels": [
               {"value": 0, "label": "CH10 - Input Changed"},
               {"value": 1, "label": "CH10 - Input Changed"},
               {"value": 2, "label": "CH10 - Reached OFF"},
@@ -8283,7 +8283,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "79", "labels": [
+        {"value": 45, "overload":{"nv": 79, "labels": [
               {"value": 0, "label": "CH10 - TWO_ON"},
               {"value": 2, "label": "CH10 - Reached MID"},
               {"value": 4, "label": "CH10 - AT2"},
@@ -8291,18 +8291,18 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "79", "labels": [
+        {"value": 46, "overload":{"nv": 79, "labels": [
               {"value": 2, "label": "CH10 - Reached ON"},
               {"value": 4, "label": "CH10 - AT3"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "79", "labels": [
+        {"value": 47, "overload":{"nv": 79, "labels": [
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "86", "labels": [
+        {"value": 48, "overload":{"nv": 86, "labels": [
               {"value": 0, "label": "CH11 - Input Changed"},
               {"value": 1, "label": "CH11 - Input Changed"},
               {"value": 2, "label": "CH11 - Reached OFF"},
@@ -8313,7 +8313,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "86", "labels": [
+        {"value": 49, "overload":{"nv": 86, "labels": [
               {"value": 0, "label": "CH11 - TWO_ON"},
               {"value": 2, "label": "CH11 - Reached MID"},
               {"value": 4, "label": "CH11 - AT2"},
@@ -8321,18 +8321,18 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "86", "labels": [
+        {"value": 50, "overload":{"nv": 86, "labels": [
               {"value": 2, "label": "CH11 - Reached ON"},
               {"value": 4, "label": "CH11 - AT3"}
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "86", "labels": [
+        {"value": 51, "overload":{"nv": 86, "labels": [
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "93", "labels": [
+        {"value": 52, "overload":{"nv": 93, "labels": [
               {"value": 0, "label": "CH12 - Input Changed"},
               {"value": 1, "label": "CH12 - Input Changed"},
               {"value": 2, "label": "CH12 - Reached OFF"},
@@ -8343,7 +8343,7 @@
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "93", "labels": [
+        {"value": 53, "overload":{"nv": 93, "labels": [
               {"value": 0, "label": "CH12 - TWO_ON"},
               {"value": 2, "label": "CH12 - Reached MID"},
               {"value": 4, "label": "CH12 - AT2"},
@@ -8351,18 +8351,18 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "93", "labels": [
+        {"value": 54, "overload":{"nv": 93, "labels": [
               {"value": 2, "label": "CH12 - Reached ON"},
               {"value": 4, "label": "CH12 - AT3"}
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "93", "labels": [
+        {"value": 55, "overload":{"nv": 93, "labels": [
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "100", "labels": [
+        {"value": 56, "overload":{"nv": 100, "labels": [
               {"value": 0, "label": "CH13 - Input Changed"},
               {"value": 1, "label": "CH13 - Input Changed"},
               {"value": 2, "label": "CH13 - Reached OFF"},
@@ -8373,7 +8373,7 @@
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "100", "labels": [
+        {"value": 57, "overload":{"nv": 100, "labels": [
               {"value": 0, "label": "CH13 - TWO_ON"},
               {"value": 2, "label": "CH13 - Reached MID"},
               {"value": 4, "label": "CH13 - AT2"},
@@ -8381,18 +8381,18 @@
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "100", "labels": [
+        {"value": 58, "overload":{"nv": 100, "labels": [
               {"value": 2, "label": "CH13 - Reached ON"},
               {"value": 4, "label": "CH13 - AT3"}
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "100", "labels": [
+        {"value": 59, "overload":{"nv": 100, "labels": [
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "107", "labels": [
+        {"value": 60, "overload":{"nv": 107, "labels": [
               {"value": 0, "label": "CH14 - Input Changed"},
               {"value": 1, "label": "CH14 - Input Changed"},
               {"value": 2, "label": "CH14 - Reached OFF"},
@@ -8403,7 +8403,7 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "107", "labels": [
+        {"value": 61, "overload":{"nv": 107, "labels": [
               {"value": 0, "label": "CH14 - TWO_ON"},
               {"value": 2, "label": "CH14 - Reached MID"},
               {"value": 4, "label": "CH14 - AT2"},
@@ -8411,18 +8411,18 @@
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "107", "labels": [
+        {"value": 62, "overload":{"nv": 107, "labels": [
               {"value": 2, "label": "CH14 - Reached ON"},
               {"value": 4, "label": "CH14 - AT3"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "107", "labels": [
+        {"value": 63, "overload":{"nv": 107, "labels": [
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "114", "labels": [
+        {"value": 64, "overload":{"nv": 114, "labels": [
               {"value": 0, "label": "CH15 - Input Changed"},
               {"value": 1, "label": "CH15 - Input Changed"},
               {"value": 2, "label": "CH15 - Reached OFF"},
@@ -8433,7 +8433,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "114", "labels": [
+        {"value": 65, "overload":{"nv": 114, "labels": [
               {"value": 0, "label": "CH15 - TWO_ON"},
               {"value": 2, "label": "CH15 - Reached MID"},
               {"value": 4, "label": "CH15 - AT2"},
@@ -8441,18 +8441,18 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "114", "labels": [
+        {"value": 66, "overload":{"nv": 114, "labels": [
               {"value": 2, "label": "CH15 - Reached ON"},
               {"value": 4, "label": "CH15 - AT3"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "114", "labels": [
+        {"value": 67, "overload":{"nv": 114, "labels": [
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "121", "labels": [
+        {"value": 68, "overload":{"nv": 121, "labels": [
               {"value": 0, "label": "CH16 - Input Changed"},
               {"value": 1, "label": "CH16 - Input Changed"},
               {"value": 2, "label": "CH16 - Reached OFF"},
@@ -8463,7 +8463,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "121", "labels": [
+        {"value": 69, "overload":{"nv": 121, "labels": [
               {"value": 0, "label": "CH16 - TWO_ON"},
               {"value": 2, "label": "CH16 - Reached MID"},
               {"value": 4, "label": "CH16 - AT2"},
@@ -8471,13 +8471,13 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "121", "labels": [
+        {"value": 70, "overload":{"nv": 121, "labels": [
               {"value": 2, "label": "CH16 - Reached ON"},
               {"value": 4, "label": "CH16 - AT3"}
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "121", "labels": [
+        {"value": 71, "overload":{"nv": 121, "labels": [
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
@@ -8497,7 +8497,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -8505,7 +8505,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -8513,7 +8513,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -8521,20 +8521,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -8542,7 +8542,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -8550,7 +8550,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -8558,20 +8558,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -8579,7 +8579,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -8587,7 +8587,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -8595,20 +8595,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -8616,7 +8616,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -8624,7 +8624,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -8632,20 +8632,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -8653,7 +8653,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -8661,7 +8661,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -8669,20 +8669,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -8690,7 +8690,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -8698,7 +8698,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -8706,20 +8706,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -8727,7 +8727,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -8735,7 +8735,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -8743,20 +8743,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -8764,7 +8764,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -8772,7 +8772,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -8780,20 +8780,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -8801,7 +8801,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -8809,7 +8809,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -8817,20 +8817,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -8838,7 +8838,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -8846,7 +8846,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -8854,20 +8854,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -8875,7 +8875,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -8883,7 +8883,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -8891,20 +8891,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -8912,7 +8912,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -8920,7 +8920,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -8928,20 +8928,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -8949,7 +8949,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -8957,7 +8957,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -8965,20 +8965,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -8986,7 +8986,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -8994,7 +8994,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -9002,20 +9002,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -9023,7 +9023,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -9031,7 +9031,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -9039,20 +9039,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -9060,7 +9060,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -9068,7 +9068,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -9076,13 +9076,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -9104,7 +9104,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -9112,7 +9112,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -9120,7 +9120,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -9128,20 +9128,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -9149,7 +9149,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -9157,7 +9157,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -9165,20 +9165,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -9186,7 +9186,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -9194,7 +9194,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -9202,20 +9202,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -9223,7 +9223,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -9231,7 +9231,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -9239,20 +9239,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -9260,7 +9260,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -9268,7 +9268,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -9276,20 +9276,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -9297,7 +9297,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -9305,7 +9305,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -9313,20 +9313,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -9334,7 +9334,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -9342,7 +9342,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -9350,20 +9350,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -9371,7 +9371,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -9379,7 +9379,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -9387,20 +9387,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -9408,7 +9408,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -9416,7 +9416,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -9424,20 +9424,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -9445,7 +9445,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -9453,7 +9453,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -9461,20 +9461,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -9482,7 +9482,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -9490,7 +9490,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -9498,20 +9498,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -9519,7 +9519,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -9527,7 +9527,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -9535,20 +9535,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -9556,7 +9556,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -9564,7 +9564,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -9572,20 +9572,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -9593,7 +9593,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -9601,7 +9601,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -9609,20 +9609,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -9630,7 +9630,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -9638,7 +9638,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -9646,20 +9646,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -9667,7 +9667,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -9675,7 +9675,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -9683,13 +9683,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -9711,7 +9711,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -9719,7 +9719,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -9727,7 +9727,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -9735,20 +9735,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -9756,7 +9756,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -9764,7 +9764,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -9772,20 +9772,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -9793,7 +9793,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -9801,7 +9801,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -9809,20 +9809,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -9830,7 +9830,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -9838,7 +9838,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -9846,20 +9846,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -9867,7 +9867,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -9875,7 +9875,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -9883,20 +9883,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -9904,7 +9904,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -9912,7 +9912,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -9920,20 +9920,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -9941,7 +9941,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -9949,7 +9949,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -9957,20 +9957,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -9978,7 +9978,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -9986,7 +9986,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -9994,20 +9994,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -10015,7 +10015,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -10023,7 +10023,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -10031,20 +10031,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -10052,7 +10052,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -10060,7 +10060,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -10068,20 +10068,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -10089,7 +10089,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -10097,7 +10097,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -10105,20 +10105,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -10126,7 +10126,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -10134,7 +10134,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -10142,20 +10142,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -10163,7 +10163,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -10171,7 +10171,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -10179,20 +10179,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -10200,7 +10200,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -10208,7 +10208,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -10216,20 +10216,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -10237,7 +10237,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -10245,7 +10245,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -10253,20 +10253,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -10274,7 +10274,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -10282,7 +10282,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -10290,13 +10290,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -10318,7 +10318,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -10326,7 +10326,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -10334,7 +10334,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -10342,20 +10342,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -10363,7 +10363,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -10371,7 +10371,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -10379,20 +10379,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -10400,7 +10400,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -10408,7 +10408,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -10416,20 +10416,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -10437,7 +10437,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -10445,7 +10445,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -10453,20 +10453,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -10474,7 +10474,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -10482,7 +10482,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -10490,20 +10490,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -10511,7 +10511,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -10519,7 +10519,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -10527,20 +10527,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -10548,7 +10548,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -10556,7 +10556,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -10564,20 +10564,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -10585,7 +10585,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -10593,7 +10593,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -10601,20 +10601,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -10622,7 +10622,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -10630,7 +10630,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -10638,20 +10638,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -10659,7 +10659,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -10667,7 +10667,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -10675,20 +10675,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -10696,7 +10696,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -10704,7 +10704,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -10712,20 +10712,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -10733,7 +10733,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -10741,7 +10741,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -10749,20 +10749,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -10770,7 +10770,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -10778,7 +10778,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -10786,20 +10786,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -10807,7 +10807,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -10815,7 +10815,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -10823,20 +10823,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -10844,7 +10844,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -10852,7 +10852,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -10860,20 +10860,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -10881,7 +10881,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -10889,7 +10889,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -10897,13 +10897,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -10925,7 +10925,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -10933,7 +10933,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -10941,7 +10941,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -10949,20 +10949,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -10970,7 +10970,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -10978,7 +10978,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -10986,20 +10986,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -11007,7 +11007,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -11015,7 +11015,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -11023,20 +11023,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -11044,7 +11044,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -11052,7 +11052,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -11060,20 +11060,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -11081,7 +11081,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -11089,7 +11089,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -11097,20 +11097,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -11118,7 +11118,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -11126,7 +11126,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -11134,20 +11134,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -11155,7 +11155,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -11163,7 +11163,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -11171,20 +11171,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -11192,7 +11192,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -11200,7 +11200,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -11208,20 +11208,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -11229,7 +11229,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -11237,7 +11237,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -11245,20 +11245,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -11266,7 +11266,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -11274,7 +11274,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -11282,20 +11282,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -11303,7 +11303,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -11311,7 +11311,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -11319,20 +11319,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -11340,7 +11340,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -11348,7 +11348,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -11356,20 +11356,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -11377,7 +11377,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -11385,7 +11385,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -11393,20 +11393,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -11414,7 +11414,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -11422,7 +11422,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -11430,20 +11430,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -11451,7 +11451,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -11459,7 +11459,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -11467,20 +11467,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -11488,7 +11488,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -11496,7 +11496,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -11504,13 +11504,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -11532,7 +11532,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -11540,7 +11540,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -11548,7 +11548,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -11556,20 +11556,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -11577,7 +11577,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -11585,7 +11585,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -11593,20 +11593,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -11614,7 +11614,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -11622,7 +11622,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -11630,20 +11630,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -11651,7 +11651,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -11659,7 +11659,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -11667,20 +11667,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -11688,7 +11688,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -11696,7 +11696,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -11704,20 +11704,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -11725,7 +11725,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -11733,7 +11733,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -11741,20 +11741,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -11762,7 +11762,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -11770,7 +11770,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -11778,20 +11778,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -11799,7 +11799,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -11807,7 +11807,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -11815,20 +11815,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -11836,7 +11836,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -11844,7 +11844,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -11852,20 +11852,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -11873,7 +11873,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -11881,7 +11881,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -11889,20 +11889,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -11910,7 +11910,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -11918,7 +11918,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -11926,20 +11926,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -11947,7 +11947,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -11955,7 +11955,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -11963,20 +11963,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -11984,7 +11984,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -11992,7 +11992,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -12000,20 +12000,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -12021,7 +12021,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -12029,7 +12029,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -12037,20 +12037,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -12058,7 +12058,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -12066,7 +12066,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -12074,20 +12074,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -12095,7 +12095,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -12103,7 +12103,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -12111,13 +12111,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
@@ -12139,7 +12139,7 @@
         {"value": 3, "label": "WAIT1"},
         {"value": 4, "label": "WAIT2"},
         {"value": 5, "label": "WAIT5"},
-        {"value": 8, "overload":{"nv": "16", "labels": [
+        {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - Change"},
               {"value": 2, "label": "CH1 - Change"},
               {"value": 3, "label": "CH1 - Change"},
@@ -12147,7 +12147,7 @@
             ]
           }
         },
-        {"value": 9, "overload":{"nv": "16", "labels": [
+        {"value": 9, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - ON"},
               {"value": 2, "label": "CH1 - ON"},
               {"value": 3, "label": "CH1 - ON"},
@@ -12155,7 +12155,7 @@
             ]
           }
         },
-        {"value": 10, "overload":{"nv": "16", "labels": [
+        {"value": 10, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - OFF"},
               {"value": 2, "label": "CH1 - OFF"},
               {"value": 3, "label": "CH1 - OFF"},
@@ -12163,20 +12163,20 @@
             ]
           }
         },
-        {"value": 11, "overload":{"nv": "16", "labels": [
+        {"value": 11, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - FLASH"},
               {"value": 4, "label": "CH1 - AT4"}
             ]
           }
         },
-        {"value": 12, "overload":{"nv": "16", "labels": [
+        {"value": 12, "overload":{"nv": 16, "labels": [
               {"value": 1, "label": "CH1 - !Change"},
               {"value": 2, "label": "CH1 - !Change"},
               {"value": 3, "label": "CH1 - !Change"}
             ]
           }
         },
-        {"value": 13, "overload":{"nv": "23", "labels": [
+        {"value": 13, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - Change"},
               {"value": 2, "label": "CH2 - Change"},
               {"value": 3, "label": "CH2 - Change"},
@@ -12184,7 +12184,7 @@
             ]
           }
         },
-        {"value": 14, "overload":{"nv": "23", "labels": [
+        {"value": 14, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - ON"},
               {"value": 2, "label": "CH2 - ON"},
               {"value": 3, "label": "CH2 - ON"},
@@ -12192,7 +12192,7 @@
             ]
           }
         },
-        {"value": 15, "overload":{"nv": "23", "labels": [
+        {"value": 15, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - OFF"},
               {"value": 2, "label": "CH2 - OFF"},
               {"value": 3, "label": "CH2 - OFF"},
@@ -12200,20 +12200,20 @@
             ]
           }
         },
-        {"value": 16, "overload":{"nv": "23", "labels": [
+        {"value": 16, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - FLASH"},
               {"value": 4, "label": "CH2 - AT4"}
             ]
           }
         },
-        {"value": 17, "overload":{"nv": "23", "labels": [
+        {"value": 17, "overload":{"nv": 23, "labels": [
               {"value": 1, "label": "CH2 - !Change"},
               {"value": 2, "label": "CH2 - !Change"},
               {"value": 3, "label": "CH2 - !Change"}
             ]
           }
         },
-        {"value": 18, "overload":{"nv": "30", "labels": [
+        {"value": 18, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - Change"},
               {"value": 2, "label": "CH3 - Change"},
               {"value": 3, "label": "CH3 - Change"},
@@ -12221,7 +12221,7 @@
             ]
           }
         },
-        {"value": 19, "overload":{"nv": "30", "labels": [
+        {"value": 19, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - ON"},
               {"value": 2, "label": "CH3 - ON"},
               {"value": 3, "label": "CH3 - ON"},
@@ -12229,7 +12229,7 @@
             ]
           }
         },
-        {"value": 20, "overload":{"nv": "30", "labels": [
+        {"value": 20, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - OFF"},
               {"value": 2, "label": "CH3 - OFF"},
               {"value": 3, "label": "CH3 - OFF"},
@@ -12237,20 +12237,20 @@
             ]
           }
         },
-        {"value": 21, "overload":{"nv": "30", "labels": [
+        {"value": 21, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - FLASH"},
               {"value": 4, "label": "CH3 - AT4"}
             ]
           }
         },
-        {"value": 22, "overload":{"nv": "30", "labels": [
+        {"value": 22, "overload":{"nv": 30, "labels": [
               {"value": 1, "label": "CH3 - !Change"},
               {"value": 2, "label": "CH3 - !Change"},
               {"value": 3, "label": "CH3 - !Change"}
             ]
           }
         },
-        {"value": 23, "overload":{"nv": "37", "labels": [
+        {"value": 23, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - Change"},
               {"value": 2, "label": "CH4 - Change"},
               {"value": 3, "label": "CH4 - Change"},
@@ -12258,7 +12258,7 @@
             ]
           }
         },
-        {"value": 24, "overload":{"nv": "37", "labels": [
+        {"value": 24, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - ON"},
               {"value": 2, "label": "CH4 - ON"},
               {"value": 3, "label": "CH4 - ON"},
@@ -12266,7 +12266,7 @@
             ]
           }
         },
-        {"value": 25, "overload":{"nv": "37", "labels": [
+        {"value": 25, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - OFF"},
               {"value": 2, "label": "CH4 - OFF"},
               {"value": 3, "label": "CH4 - OFF"},
@@ -12274,20 +12274,20 @@
             ]
           }
         },
-        {"value": 26, "overload":{"nv": "37", "labels": [
+        {"value": 26, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - FLASH"},
               {"value": 4, "label": "CH4 - AT4"}
             ]
           }
         },
-        {"value": 27, "overload":{"nv": "37", "labels": [
+        {"value": 27, "overload":{"nv": 37, "labels": [
               {"value": 1, "label": "CH4 - !Change"},
               {"value": 2, "label": "CH4 - !Change"},
               {"value": 3, "label": "CH4 - !Change"}
             ]
           }
         },
-        {"value": 28, "overload":{"nv": "44", "labels": [
+        {"value": 28, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - Change"},
               {"value": 2, "label": "CH5 - Change"},
               {"value": 3, "label": "CH5 - Change"},
@@ -12295,7 +12295,7 @@
             ]
           }
         },
-        {"value": 29, "overload":{"nv": "44", "labels": [
+        {"value": 29, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - ON"},
               {"value": 2, "label": "CH5 - ON"},
               {"value": 3, "label": "CH5 - ON"},
@@ -12303,7 +12303,7 @@
             ]
           }
         },
-        {"value": 30, "overload":{"nv": "44", "labels": [
+        {"value": 30, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - OFF"},
               {"value": 2, "label": "CH5 - OFF"},
               {"value": 3, "label": "CH5 - OFF"},
@@ -12311,20 +12311,20 @@
             ]
           }
         },
-        {"value": 31, "overload":{"nv": "44", "labels": [
+        {"value": 31, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - FLASH"},
               {"value": 4, "label": "CH5 - AT4"}
             ]
           }
         },
-        {"value": 32, "overload":{"nv": "44", "labels": [
+        {"value": 32, "overload":{"nv": 44, "labels": [
               {"value": 1, "label": "CH5 - !Change"},
               {"value": 2, "label": "CH5 - !Change"},
               {"value": 3, "label": "CH5 - !Change"}
             ]
           }
         },
-        {"value": 33, "overload":{"nv": "51", "labels": [
+        {"value": 33, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - Change"},
               {"value": 2, "label": "CH6 - Change"},
               {"value": 3, "label": "CH6 - Change"},
@@ -12332,7 +12332,7 @@
             ]
           }
         },
-        {"value": 34, "overload":{"nv": "51", "labels": [
+        {"value": 34, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - ON"},
               {"value": 2, "label": "CH6 - ON"},
               {"value": 3, "label": "CH6 - ON"},
@@ -12340,7 +12340,7 @@
             ]
           }
         },
-        {"value": 35, "overload":{"nv": "51", "labels": [
+        {"value": 35, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - OFF"},
               {"value": 2, "label": "CH6 - OFF"},
               {"value": 3, "label": "CH6 - OFF"},
@@ -12348,20 +12348,20 @@
             ]
           }
         },
-        {"value": 36, "overload":{"nv": "51", "labels": [
+        {"value": 36, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - FLASH"},
               {"value": 4, "label": "CH6 - AT4"}
             ]
           }
         },
-        {"value": 37, "overload":{"nv": "51", "labels": [
+        {"value": 37, "overload":{"nv": 51, "labels": [
               {"value": 1, "label": "CH6 - !Change"},
               {"value": 2, "label": "CH6 - !Change"},
               {"value": 3, "label": "CH6 - !Change"}
             ]
           }
         },
-        {"value": 38, "overload":{"nv": "58", "labels": [
+        {"value": 38, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - Change"},
               {"value": 2, "label": "CH7 - Change"},
               {"value": 3, "label": "CH7 - Change"},
@@ -12369,7 +12369,7 @@
             ]
           }
         },
-        {"value": 39, "overload":{"nv": "58", "labels": [
+        {"value": 39, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - ON"},
               {"value": 2, "label": "CH7 - ON"},
               {"value": 3, "label": "CH7 - ON"},
@@ -12377,7 +12377,7 @@
             ]
           }
         },
-        {"value": 40, "overload":{"nv": "58", "labels": [
+        {"value": 40, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - OFF"},
               {"value": 2, "label": "CH7 - OFF"},
               {"value": 3, "label": "CH7 - OFF"},
@@ -12385,20 +12385,20 @@
             ]
           }
         },
-        {"value": 41, "overload":{"nv": "58", "labels": [
+        {"value": 41, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - FLASH"},
               {"value": 4, "label": "CH7 - AT4"}
             ]
           }
         },
-        {"value": 42, "overload":{"nv": "58", "labels": [
+        {"value": 42, "overload":{"nv": 58, "labels": [
               {"value": 1, "label": "CH7 - !Change"},
               {"value": 2, "label": "CH7 - !Change"},
               {"value": 3, "label": "CH7 - !Change"}
             ]
           }
         },
-        {"value": 43, "overload":{"nv": "65", "labels": [
+        {"value": 43, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - Change"},
               {"value": 2, "label": "CH8 - Change"},
               {"value": 3, "label": "CH8 - Change"},
@@ -12406,7 +12406,7 @@
             ]
           }
         },
-        {"value": 44, "overload":{"nv": "65", "labels": [
+        {"value": 44, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - ON"},
               {"value": 2, "label": "CH8 - ON"},
               {"value": 3, "label": "CH8 - ON"},
@@ -12414,7 +12414,7 @@
             ]
           }
         },
-        {"value": 45, "overload":{"nv": "65", "labels": [
+        {"value": 45, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - OFF"},
               {"value": 2, "label": "CH8 - OFF"},
               {"value": 3, "label": "CH8 - OFF"},
@@ -12422,20 +12422,20 @@
             ]
           }
         },
-        {"value": 46, "overload":{"nv": "65", "labels": [
+        {"value": 46, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - FLASH"},
               {"value": 4, "label": "CH8 - AT4"}
             ]
           }
         },
-        {"value": 47, "overload":{"nv": "65", "labels": [
+        {"value": 47, "overload":{"nv": 65, "labels": [
               {"value": 1, "label": "CH8 - !Change"},
               {"value": 2, "label": "CH8 - !Change"},
               {"value": 3, "label": "CH8 - !Change"}
             ]
           }
         },
-        {"value": 48, "overload":{"nv": "72", "labels": [
+        {"value": 48, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - Change"},
               {"value": 2, "label": "CH9 - Change"},
               {"value": 3, "label": "CH9 - Change"},
@@ -12443,7 +12443,7 @@
             ]
           }
         },
-        {"value": 49, "overload":{"nv": "72", "labels": [
+        {"value": 49, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - ON"},
               {"value": 2, "label": "CH9 - ON"},
               {"value": 3, "label": "CH9 - ON"},
@@ -12451,7 +12451,7 @@
             ]
           }
         },
-        {"value": 50, "overload":{"nv": "72", "labels": [
+        {"value": 50, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - OFF"},
               {"value": 2, "label": "CH9 - OFF"},
               {"value": 3, "label": "CH9 - OFF"},
@@ -12459,20 +12459,20 @@
             ]
           }
         },
-        {"value": 51, "overload":{"nv": "72", "labels": [
+        {"value": 51, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - FLASH"},
               {"value": 4, "label": "CH9 - AT4"}
             ]
           }
         },
-        {"value": 52, "overload":{"nv": "72", "labels": [
+        {"value": 52, "overload":{"nv": 72, "labels": [
               {"value": 1, "label": "CH9 - !Change"},
               {"value": 2, "label": "CH9 - !Change"},
               {"value": 3, "label": "CH9 - !Change"}
             ]
           }
         },
-        {"value": 53, "overload":{"nv": "79", "labels": [
+        {"value": 53, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - Change"},
               {"value": 2, "label": "CH10 - Change"},
               {"value": 3, "label": "CH10 - Change"},
@@ -12480,7 +12480,7 @@
             ]
           }
         },
-        {"value": 54, "overload":{"nv": "79", "labels": [
+        {"value": 54, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - ON"},
               {"value": 2, "label": "CH10 - ON"},
               {"value": 3, "label": "CH10 - ON"},
@@ -12488,7 +12488,7 @@
             ]
           }
         },
-        {"value": 55, "overload":{"nv": "79", "labels": [
+        {"value": 55, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - OFF"},
               {"value": 2, "label": "CH10 - OFF"},
               {"value": 3, "label": "CH10 - OFF"},
@@ -12496,20 +12496,20 @@
             ]
           }
         },
-        {"value": 56, "overload":{"nv": "79", "labels": [
+        {"value": 56, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - FLASH"},
               {"value": 4, "label": "CH10 - AT4"}
             ]
           }
         },
-        {"value": 57, "overload":{"nv": "79", "labels": [
+        {"value": 57, "overload":{"nv": 79, "labels": [
               {"value": 1, "label": "CH10 - !Change"},
               {"value": 2, "label": "CH10 - !Change"},
               {"value": 3, "label": "CH10 - !Change"}
             ]
           }
         },
-        {"value": 58, "overload":{"nv": "86", "labels": [
+        {"value": 58, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - Change"},
               {"value": 2, "label": "CH11 - Change"},
               {"value": 3, "label": "CH11 - Change"},
@@ -12517,7 +12517,7 @@
             ]
           }
         },
-        {"value": 59, "overload":{"nv": "86", "labels": [
+        {"value": 59, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - ON"},
               {"value": 2, "label": "CH11 - ON"},
               {"value": 3, "label": "CH11 - ON"},
@@ -12525,7 +12525,7 @@
             ]
           }
         },
-        {"value": 60, "overload":{"nv": "86", "labels": [
+        {"value": 60, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - OFF"},
               {"value": 2, "label": "CH11 - OFF"},
               {"value": 3, "label": "CH11 - OFF"},
@@ -12533,20 +12533,20 @@
             ]
           }
         },
-        {"value": 61, "overload":{"nv": "86", "labels": [
+        {"value": 61, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - FLASH"},
               {"value": 4, "label": "CH11 - AT4"}
             ]
           }
         },
-        {"value": 62, "overload":{"nv": "86", "labels": [
+        {"value": 62, "overload":{"nv": 86, "labels": [
               {"value": 1, "label": "CH11 - !Change"},
               {"value": 2, "label": "CH11 - !Change"},
               {"value": 3, "label": "CH11 - !Change"}
             ]
           }
         },
-        {"value": 63, "overload":{"nv": "93", "labels": [
+        {"value": 63, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - Change"},
               {"value": 2, "label": "CH12 - Change"},
               {"value": 3, "label": "CH12 - Change"},
@@ -12554,7 +12554,7 @@
             ]
           }
         },
-        {"value": 64, "overload":{"nv": "93", "labels": [
+        {"value": 64, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - ON"},
               {"value": 2, "label": "CH12 - ON"},
               {"value": 3, "label": "CH12 - ON"},
@@ -12562,7 +12562,7 @@
             ]
           }
         },
-        {"value": 65, "overload":{"nv": "93", "labels": [
+        {"value": 65, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - OFF"},
               {"value": 2, "label": "CH12 - OFF"},
               {"value": 3, "label": "CH12 - OFF"},
@@ -12570,20 +12570,20 @@
             ]
           }
         },
-        {"value": 66, "overload":{"nv": "93", "labels": [
+        {"value": 66, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - FLASH"},
               {"value": 4, "label": "CH12 - AT4"}
             ]
           }
         },
-        {"value": 67, "overload":{"nv": "93", "labels": [
+        {"value": 67, "overload":{"nv": 93, "labels": [
               {"value": 1, "label": "CH12 - !Change"},
               {"value": 2, "label": "CH12 - !Change"},
               {"value": 3, "label": "CH12 - !Change"}
             ]
           }
         },
-        {"value": 68, "overload":{"nv": "100", "labels": [
+        {"value": 68, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - Change"},
               {"value": 2, "label": "CH13 - Change"},
               {"value": 3, "label": "CH13 - Change"},
@@ -12591,7 +12591,7 @@
             ]
           }
         },
-        {"value": 69, "overload":{"nv": "100", "labels": [
+        {"value": 69, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - ON"},
               {"value": 2, "label": "CH13 - ON"},
               {"value": 3, "label": "CH13 - ON"},
@@ -12599,7 +12599,7 @@
             ]
           }
         },
-        {"value": 70, "overload":{"nv": "100", "labels": [
+        {"value": 70, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - OFF"},
               {"value": 2, "label": "CH13 - OFF"},
               {"value": 3, "label": "CH13 - OFF"},
@@ -12607,20 +12607,20 @@
             ]
           }
         },
-        {"value": 71, "overload":{"nv": "100", "labels": [
+        {"value": 71, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - FLASH"},
               {"value": 4, "label": "CH13 - AT4"}
             ]
           }
         },
-        {"value": 72, "overload":{"nv": "100", "labels": [
+        {"value": 72, "overload":{"nv": 100, "labels": [
               {"value": 1, "label": "CH13 - !Change"},
               {"value": 2, "label": "CH13 - !Change"},
               {"value": 3, "label": "CH13 - !Change"}
             ]
           }
         },
-        {"value": 73, "overload":{"nv": "107", "labels": [
+        {"value": 73, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - Change"},
               {"value": 2, "label": "CH14 - Change"},
               {"value": 3, "label": "CH14 - Change"},
@@ -12628,7 +12628,7 @@
             ]
           }
         },
-        {"value": 74, "overload":{"nv": "107", "labels": [
+        {"value": 74, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - ON"},
               {"value": 2, "label": "CH14 - ON"},
               {"value": 3, "label": "CH14 - ON"},
@@ -12636,7 +12636,7 @@
             ]
           }
         },
-        {"value": 75, "overload":{"nv": "107", "labels": [
+        {"value": 75, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - OFF"},
               {"value": 2, "label": "CH14 - OFF"},
               {"value": 3, "label": "CH14 - OFF"},
@@ -12644,20 +12644,20 @@
             ]
           }
         },
-        {"value": 76, "overload":{"nv": "107", "labels": [
+        {"value": 76, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - FLASH"},
               {"value": 4, "label": "CH14 - AT4"}
             ]
           }
         },
-        {"value": 77, "overload":{"nv": "107", "labels": [
+        {"value": 77, "overload":{"nv": 107, "labels": [
               {"value": 1, "label": "CH14 - !Change"},
               {"value": 2, "label": "CH14 - !Change"},
               {"value": 3, "label": "CH14 - !Change"}
             ]
           }
         },
-        {"value": 78, "overload":{"nv": "114", "labels": [
+        {"value": 78, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - Change"},
               {"value": 2, "label": "CH15 - Change"},
               {"value": 3, "label": "CH15 - Change"},
@@ -12665,7 +12665,7 @@
             ]
           }
         },
-        {"value": 79, "overload":{"nv": "114", "labels": [
+        {"value": 79, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - ON"},
               {"value": 2, "label": "CH15 - ON"},
               {"value": 3, "label": "CH15 - ON"},
@@ -12673,7 +12673,7 @@
             ]
           }
         },
-        {"value": 80, "overload":{"nv": "114", "labels": [
+        {"value": 80, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - OFF"},
               {"value": 2, "label": "CH15 - OFF"},
               {"value": 3, "label": "CH15 - OFF"},
@@ -12681,20 +12681,20 @@
             ]
           }
         },
-        {"value": 81, "overload":{"nv": "114", "labels": [
+        {"value": 81, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - FLASH"},
               {"value": 4, "label": "CH15 - AT4"}
             ]
           }
         },
-        {"value": 82, "overload":{"nv": "114", "labels": [
+        {"value": 82, "overload":{"nv": 114, "labels": [
               {"value": 1, "label": "CH15 - !Change"},
               {"value": 2, "label": "CH15 - !Change"},
               {"value": 3, "label": "CH15 - !Change"}
             ]
           }
         },
-        {"value": 83, "overload":{"nv": "121", "labels": [
+        {"value": 83, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - Change"},
               {"value": 2, "label": "CH16 - Change"},
               {"value": 3, "label": "CH16 - Change"},
@@ -12702,7 +12702,7 @@
             ]
           }
         },
-        {"value": 84, "overload":{"nv": "121", "labels": [
+        {"value": 84, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - ON"},
               {"value": 2, "label": "CH16 - ON"},
               {"value": 3, "label": "CH16 - ON"},
@@ -12710,7 +12710,7 @@
             ]
           }
         },
-        {"value": 85, "overload":{"nv": "121", "labels": [
+        {"value": 85, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - OFF"},
               {"value": 2, "label": "CH16 - OFF"},
               {"value": 3, "label": "CH16 - OFF"},
@@ -12718,13 +12718,13 @@
             ]
           }
         },
-        {"value": 86, "overload":{"nv": "121", "labels": [
+        {"value": 86, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - FLASH"},
               {"value": 4, "label": "CH16 - AT4"}
             ]
           }
         },
-        {"value": 87, "overload":{"nv": "121", "labels": [
+        {"value": 87, "overload":{"nv": 121, "labels": [
               {"value": 1, "label": "CH16 - !Change"},
               {"value": 2, "label": "CH16 - !Change"},
               {"value": 3, "label": "CH16 - !Change"}
