@@ -96,7 +96,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -106,7 +106,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -159,7 +159,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -169,7 +169,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -179,7 +179,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -226,7 +226,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -274,7 +274,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -303,7 +303,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -422,7 +422,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -432,7 +432,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -485,7 +485,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -495,7 +495,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -505,7 +505,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -552,7 +552,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -600,7 +600,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -629,7 +629,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -748,7 +748,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -758,7 +758,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -811,7 +811,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -821,7 +821,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -831,7 +831,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -878,7 +878,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -926,7 +926,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -955,7 +955,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -1074,7 +1074,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1084,7 +1084,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -1137,7 +1137,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1147,7 +1147,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1157,7 +1157,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -1204,7 +1204,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -1252,7 +1252,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -1281,7 +1281,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -1400,7 +1400,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1410,7 +1410,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -1463,7 +1463,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1473,7 +1473,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1483,7 +1483,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -1530,7 +1530,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -1578,7 +1578,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -1607,7 +1607,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -1726,7 +1726,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1736,7 +1736,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -1789,7 +1789,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1799,7 +1799,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -1809,7 +1809,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -1856,7 +1856,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -1904,7 +1904,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -1933,7 +1933,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -2052,7 +2052,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2062,7 +2062,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -2115,7 +2115,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2125,7 +2125,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2135,7 +2135,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -2182,7 +2182,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -2230,7 +2230,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -2259,7 +2259,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -2378,7 +2378,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2388,7 +2388,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -2441,7 +2441,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2451,7 +2451,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2461,7 +2461,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -2508,7 +2508,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -2556,7 +2556,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -2585,7 +2585,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -2706,7 +2706,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2716,7 +2716,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -2769,7 +2769,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2779,7 +2779,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -2789,7 +2789,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -2836,7 +2836,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -2884,7 +2884,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -2913,7 +2913,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -3034,7 +3034,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3044,7 +3044,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -3097,7 +3097,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3107,7 +3107,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3117,7 +3117,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -3164,7 +3164,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -3212,7 +3212,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -3241,7 +3241,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -3362,7 +3362,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3372,7 +3372,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -3425,7 +3425,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3435,7 +3435,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3445,7 +3445,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -3492,7 +3492,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -3540,7 +3540,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -3569,7 +3569,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -3688,7 +3688,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3698,7 +3698,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -3751,7 +3751,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3761,7 +3761,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -3771,7 +3771,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -3818,7 +3818,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -3866,7 +3866,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -3895,7 +3895,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -4016,7 +4016,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4026,7 +4026,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -4079,7 +4079,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4089,7 +4089,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4099,7 +4099,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -4146,7 +4146,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -4194,7 +4194,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -4223,7 +4223,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -4344,7 +4344,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4354,7 +4354,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -4407,7 +4407,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4417,7 +4417,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4427,7 +4427,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -4474,7 +4474,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -4522,7 +4522,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -4551,7 +4551,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -4672,7 +4672,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4682,7 +4682,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -4735,7 +4735,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4745,7 +4745,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -4755,7 +4755,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -4802,7 +4802,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -4850,7 +4850,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -4879,7 +4879,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
@@ -5000,7 +5000,7 @@
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -5010,7 +5010,7 @@
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -5063,7 +5063,7 @@
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -5073,7 +5073,7 @@
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -5083,7 +5083,7 @@
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -5130,7 +5130,7 @@
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -5178,7 +5178,7 @@
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -5207,7 +5207,7 @@
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
