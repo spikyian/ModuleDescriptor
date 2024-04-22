@@ -432,7 +432,7 @@ EOF
 for ch in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 do
     cat <<EOF
-        {"value": $((4+$ch*4)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((4+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 0, "label": "CH$ch - Input Changed"},
               {"value": 1, "label": "CH$ch - Input Changed"},
               {"value": 2, "label": "CH$ch - Reached OFF"},
@@ -443,7 +443,7 @@ do
             ]
           }
         },
-        {"value": $((5+$ch*4)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((5+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 0, "label": "CH$ch - TWO_ON"},
               {"value": 2, "label": "CH$ch - Reached MID"},
               {"value": 4, "label": "CH$ch - AT2"},
@@ -451,13 +451,13 @@ do
             ]
           }
         },
-        {"value": $((6+$ch*4)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((6+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 2, "label": "CH$ch - Reached ON"},
               {"value": 4, "label": "CH$ch - AT3"}
             ]
           }
         },
-        {"value": $((7+$ch*4)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((7+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 4, "label": "CH$ch - AT4"}
             ]
           }
@@ -491,7 +491,7 @@ EOF
 for ch in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 do
     cat <<EOF
-        {"value": $((3+$ch*5)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((3+$ch*5)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 1, "label": "CH$ch - Change"},
               {"value": 2, "label": "CH$ch - Change"},
               {"value": 3, "label": "CH$ch - Change"},
@@ -499,7 +499,7 @@ do
             ]
           }
         },
-        {"value": $((4+$ch*5)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((4+$ch*5)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 1, "label": "CH$ch - ON"},
               {"value": 2, "label": "CH$ch - ON"},
               {"value": 3, "label": "CH$ch - ON"},
@@ -507,7 +507,7 @@ do
             ]
           }
         },
-        {"value": $((5+$ch*5)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((5+$ch*5)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 1, "label": "CH$ch - OFF"},
               {"value": 2, "label": "CH$ch - OFF"},
               {"value": 3, "label": "CH$ch - OFF"},
@@ -515,13 +515,13 @@ do
             ]
           }
         },
-        {"value": $((6+$ch*5)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((6+$ch*5)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 1, "label": "CH$ch - FLASH"},
               {"value": 4, "label": "CH$ch - AT4"}
             ]
           }
         },
-        {"value": $((7+$ch*5)), "overload":{"nv": "$((9+$ch*7))", "labels": [
+        {"value": $((7+$ch*5)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 1, "label": "CH$ch - !Change"},
               {"value": 2, "label": "CH$ch - !Change"},
               {"value": 3, "label": "CH$ch - !Change"}
