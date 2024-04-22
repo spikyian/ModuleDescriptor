@@ -132,7 +132,7 @@ do
               "displayTitle": "OFF position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -142,7 +142,7 @@ do
               "displayTitle": "UPPER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "number of positions",
@@ -195,7 +195,7 @@ do
               "displayTitle": "ON position",
               "displaySubTitle": "servo specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -205,7 +205,7 @@ do
               "displayTitle": "LOWER position",
               "displaySubTitle": "bounce specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "type": "NodeVariableSlider",
@@ -215,7 +215,7 @@ do
               "displayTitle": "pos 1",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Threshold",
@@ -262,7 +262,7 @@ do
               "displayTitle": "pos 2",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Hysteresis",
@@ -310,7 +310,7 @@ do
               "displayTitle": "pos 3",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset H",
@@ -339,7 +339,7 @@ do
               "displayTitle": "pos 4",
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
-              "outputOnWrite": "true"
+              "outputOnWrite": true
             },
             {
               "displayTitle": "Offset L",
