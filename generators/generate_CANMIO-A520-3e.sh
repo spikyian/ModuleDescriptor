@@ -43,8 +43,8 @@ cat <<EOF
             {
               "type": "NodeVariableNumber",
               "nodeVariableIndex": 3,
-              "displayTitle": "Servo speed",
-              "displaySubTitle": "If >234 MULTI servo is moved this amount every 100ms. If <= 234 this is number of 20ms periods per step",
+              "displayTitle": "Multi Servo speed",
+              "displaySubTitle": "If >234 moves this amount every 100ms. If <= 234 number of 20ms periods per step",
               "displayUnits": "milliseconds"
             },
             {
@@ -69,6 +69,22 @@ EOF
 
 for ch in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 do
+    if [ $ch -ge 9 -a $ch -le 16 -a $ch -ne 12 ]
+    then
+      ioTypes='{"label": "INPUT", "value": 0},
+                {"label": "OUTPUT", "value": 1},
+                {"label": "SERVO", "value": 2},
+                {"label": "BOUNCE", "value": 3},
+                {"label": "MULTI", "value": 4},
+                {"label": "ANALOGUE", "value": 5},
+                {"label": "MAGNET", "value": 6}'
+    else
+      ioTypes='{"label": "INPUT", "value": 0},
+                {"label": "OUTPUT", "value": 1},
+                {"label": "SERVO", "value": 2},
+                {"label": "BOUNCE", "value": 3},
+                {"label": "MULTI", "value": 4}'
+    fi
     cat <<EOF
         { "displayTitle": "Channel $ch",
           "items": [
@@ -77,13 +93,7 @@ do
               "nodeVariableIndex": $((9+$ch*7)),
               "displayTitle": "I/O type",
               "displaySubTitle": "",
-              "options": [
-              {"label": "INPUT", "value": 0},
-              {"label": "OUTPUT", "value": 1},
-              {"label": "SERVO", "value": 2},
-              {"label": "BOUNCE", "value": 3},
-              {"label": "MULTI", "value": 4}
-              ]
+              "options": [${ioTypes}]
             },
             {
               "type": "NodeVariableSlider",
@@ -140,6 +150,15 @@ do
               ]
             },
             {
+              "displayTitle": "magnet setup",
+              "displaySubTitle": "ADC offset",
+              "comment":"magnet type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
+              "nodeVariableIndex": $((11+$ch*7)),
+              "displayUnits": "ADC units, in 1.22mV steps"
+            },
+            {
               "type": "NodeVariableSlider",
               "comment":"input type only",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 0 },
@@ -190,6 +209,25 @@ do
               "outputOnWrite": true
             },
             {
+              "displayTitle": "Threshold",
+              "displaySubTitle": "analog specific",
+              "comment":"analog type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 5 },
+              "nodeVariableIndex": $((12+$ch*7)),
+              "displayUnits": "Volts",
+              "displayScale": 0.0196
+            },
+            {
+              "displayTitle": "Threshold",
+              "displaySubTitle": "magnet specific",
+              "comment":"analog type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
+              "nodeVariableIndex": $((12+$ch*7)),
+              "displayUnits": "ADC units, in 1.22mV steps"
+            },
+            {
               "type": "NodeVariableSlider",
               "comment":"servo type only",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 2 },
@@ -216,6 +254,25 @@ do
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
               "outputOnWrite": true
+            },
+            {
+              "displayTitle": "Hysteresis",
+              "displaySubTitle": "analogue specific",
+              "comment":"analogue type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 5 },
+              "nodeVariableIndex": $((13+$ch*7)),
+              "displayUnits": "Volts",
+              "displayScale": 0.0196
+            },
+            {
+              "displayTitle": "Hysteresis",
+              "displaySubTitle": "magnet specific",
+              "comment":"magnet type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
+              "nodeVariableIndex": $((13+$ch*7)),
+              "displayUnits": "ADC units, in 1.22mV steps"
             },
             {
               "type": "NodeVariableSlider",
@@ -247,6 +304,15 @@ do
               "outputOnWrite": true
             },
             {
+              "displayTitle": "Offset H",
+              "displaySubTitle": "magnet specific",
+              "comment":"magnet type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
+              "nodeVariableIndex": $((14+$ch*7)),
+              "displayUnits": "ADC units, in 1.22mV steps"
+            },
+            {
               "type": "NodeVariableSlider",
               "comment":"bounce type only",
               "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 3 },
@@ -265,6 +331,15 @@ do
               "displaySubTitle": "multi specific",
               "displayUnits": "steps",
               "outputOnWrite": true
+            },
+            {
+              "displayTitle": "Offset L",
+              "displaySubTitle": "magnet specific",
+              "comment":"magnet type only",
+              "type": "NodeVariableSlider",
+              "visibilityLogic":{ "nv":$((9+$ch*7)), "equals": 6 },
+              "nodeVariableIndex": $((15+$ch*7)),
+              "displayUnits": "ADC units, in 1.22mV steps"
             },
             {
               "type": "NodeVariableBitArray",
@@ -297,7 +372,9 @@ do
                 },
                 {"bitPosition": 3, "overload":{"nv": $((9+$ch*7)), "labels": [
                       {"value": 0, "label": "DISABLE_OFF"},
-                      {"value": 1, "label": "DISABLE_OFF"}
+                      {"value": 1, "label": "DISABLE_OFF"},
+                      {"value": 5, "label": "DISABLE_OFF"},
+                      {"value": 6, "label": "DISABLE_OFF"}
                     ]
                   }
                 },
@@ -314,13 +391,18 @@ do
                       {"value": 1, "label": "ACTION_INVERTED"},
                       {"value": 2, "label": "ACTION_INVERTED"},
                       {"value": 3, "label": "ACTION_INVERTED"},
-                      {"value": 4, "label": "ACTION_INVERTED"}
+                      {"value": 4, "label": "ACTION_INVERTED"},
+                      {"value": 5, "label": "INPUT_DISABLE_SOD_RESPONSE"},
+                      {"value": 6, "label": "INPUT_DISABLE_SOD_RESPONSE"}
                     ]
                   }
                 },
                 {"bitPosition": 6, "label": "EVENT_INVERTED"},
                 {"bitPosition": 7, "overload":{"nv": $((9+$ch*7)), "labels": [
-                      {"value": 1, "label": "ACTION_EXPEDITED"}
+                      {"value": 1, "label": "ACTION_EXPEDITED"},
+                      {"value": 2, "label": "EXTENDED 180 DEGREE RANGE"},
+                      {"value": 3, "label": "EXTENDED 180 DEGREE RANGE"},
+                      {"value": 4, "label": "EXTENDED 180 DEGREE RANGE"}
                     ]
                   }
                 }
@@ -355,14 +437,17 @@ do
               {"value": 1, "label": "CH$ch - Input Changed"},
               {"value": 2, "label": "CH$ch - Reached OFF"},
               {"value": 3, "label": "CH$ch - Input Changed"},
-              {"value": 4, "label": "CH$ch - AT1"}
+              {"value": 4, "label": "CH$ch - AT1"},
+              {"value": 5, "label": "CH$ch - Threshold"},
+              {"value": 6, "label": "CH$ch - Lower Threshold"}
             ]
           }
         },
         {"value": $((5+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 0, "label": "CH$ch - TWO_ON"},
               {"value": 2, "label": "CH$ch - Reached MID"},
-              {"value": 4, "label": "CH$ch - AT2"}
+              {"value": 4, "label": "CH$ch - AT2"},
+              {"value": 6, "label": "CH$ch - Upper Threshold"}
             ]
           }
         },

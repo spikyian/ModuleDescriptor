@@ -29,13 +29,13 @@ do
           "displayTitle": "ON end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((1+$ch*4)),
-          "outputOnWrite": "true"
+          "outputOnWrite": true
         },
         {
           "displayTitle": "OFF end position",
           "type": "NodeVariableSlider",
           "nodeVariableIndex": $((2+$ch*4)),
-          "outputOnWrite": "true"
+          "outputOnWrite": true
         },
         {
           "displayTitle": "ON speed",
