@@ -3,6 +3,8 @@
 # Generate descriptor file for CANMIO-Universal modules.
 # Use this script to avoid duplication and reduce maintenance.
 
+# CANXIO is similar to CANMIO but with 24 channels.
+
 # Used to omit trailing comma at end of lists.
 ending[0]=',' # False - not end of list, add a comma.
 ending[1]=''  # True  - at end of list, omit trailing comma.
@@ -95,7 +97,7 @@ do
                 {"label": "MULTI", "value": 4}'
     fi
     cat <<EOF
-        { "displayTitle": "CH $ch",
+        { "displayTitle": "Channel $ch",
           "items": [
             {
               "type": "NodeVariableSelect",

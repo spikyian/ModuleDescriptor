@@ -3,6 +3,9 @@
 # Generate descriptor file for CANMIO-Universal modules.
 # Use this script to avoid duplication and reduce maintenance.
 
+# Version 3e adds:
+#  * Extended servo travel.
+
 # Used to omit trailing comma at end of lists.
 ending[0]=',' # False - not end of list, add a comma.
 ending[1]=''  # True  - at end of list, omit trailing comma.
