@@ -64,7 +64,7 @@
             }
           ]
         },
-        { "displayTitle": "CH 1",
+        { "displayTitle": "Channel 1",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -393,7 +393,7 @@
           ],
           "comment":"end of channel 1"
         },
-        { "displayTitle": "CH 2",
+        { "displayTitle": "Channel 2",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -722,7 +722,7 @@
           ],
           "comment":"end of channel 2"
         },
-        { "displayTitle": "CH 3",
+        { "displayTitle": "Channel 3",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1051,7 +1051,7 @@
           ],
           "comment":"end of channel 3"
         },
-        { "displayTitle": "CH 4",
+        { "displayTitle": "Channel 4",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1380,7 +1380,7 @@
           ],
           "comment":"end of channel 4"
         },
-        { "displayTitle": "CH 5",
+        { "displayTitle": "Channel 5",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1709,7 +1709,7 @@
           ],
           "comment":"end of channel 5"
         },
-        { "displayTitle": "CH 6",
+        { "displayTitle": "Channel 6",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2038,7 +2038,7 @@
           ],
           "comment":"end of channel 6"
         },
-        { "displayTitle": "CH 7",
+        { "displayTitle": "Channel 7",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2367,7 +2367,7 @@
           ],
           "comment":"end of channel 7"
         },
-        { "displayTitle": "CH 8",
+        { "displayTitle": "Channel 8",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2696,7 +2696,7 @@
           ],
           "comment":"end of channel 8"
         },
-        { "displayTitle": "CH 9",
+        { "displayTitle": "Channel 9",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3027,7 +3027,7 @@
           ],
           "comment":"end of channel 9"
         },
-        { "displayTitle": "CH 10",
+        { "displayTitle": "Channel 10",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3358,7 +3358,7 @@
           ],
           "comment":"end of channel 10"
         },
-        { "displayTitle": "CH 11",
+        { "displayTitle": "Channel 11",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3689,7 +3689,7 @@
           ],
           "comment":"end of channel 11"
         },
-        { "displayTitle": "CH 12",
+        { "displayTitle": "Channel 12",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4018,7 +4018,7 @@
           ],
           "comment":"end of channel 12"
         },
-        { "displayTitle": "CH 13",
+        { "displayTitle": "Channel 13",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4349,7 +4349,7 @@
           ],
           "comment":"end of channel 13"
         },
-        { "displayTitle": "CH 14",
+        { "displayTitle": "Channel 14",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4680,7 +4680,7 @@
           ],
           "comment":"end of channel 14"
         },
-        { "displayTitle": "CH 15",
+        { "displayTitle": "Channel 15",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5011,7 +5011,7 @@
           ],
           "comment":"end of channel 15"
         },
-        { "displayTitle": "CH 16",
+        { "displayTitle": "Channel 16",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5342,7 +5342,7 @@
           ],
           "comment":"end of channel 16"
         },
-        { "displayTitle": "CH 17",
+        { "displayTitle": "Channel 17",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5673,7 +5673,7 @@
           ],
           "comment":"end of channel 17"
         },
-        { "displayTitle": "CH 18",
+        { "displayTitle": "Channel 18",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6004,7 +6004,7 @@
           ],
           "comment":"end of channel 18"
         },
-        { "displayTitle": "CH 19",
+        { "displayTitle": "Channel 19",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6335,7 +6335,7 @@
           ],
           "comment":"end of channel 19"
         },
-        { "displayTitle": "CH 20",
+        { "displayTitle": "Channel 20",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6666,7 +6666,7 @@
           ],
           "comment":"end of channel 20"
         },
-        { "displayTitle": "CH 21",
+        { "displayTitle": "Channel 21",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6997,7 +6997,7 @@
           ],
           "comment":"end of channel 21"
         },
-        { "displayTitle": "CH 22",
+        { "displayTitle": "Channel 22",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -7328,7 +7328,7 @@
           ],
           "comment":"end of channel 22"
         },
-        { "displayTitle": "CH 23",
+        { "displayTitle": "Channel 23",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -7659,7 +7659,7 @@
           ],
           "comment":"end of channel 23"
         },
-        { "displayTitle": "CH 24",
+        { "displayTitle": "Channel 24",
           "items": [
             {
               "type": "NodeVariableSelect",
