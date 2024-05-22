@@ -8004,7 +8004,7 @@
         {"value": 1, "label": "Startup event (1)"},
         {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 0, "label": "CH1 - Input Changed"},
-              {"value": 1, "label": "CH1 - Input Changed"},
+              {"value": 1, "label": "CH1 - Output Changed"},
               {"value": 2, "label": "CH1 - Reached OFF"},
               {"value": 3, "label": "CH1 - Input Changed"},
               {"value": 4, "label": "CH1 - AT1"},
@@ -8034,7 +8034,7 @@
         },
         {"value": 12, "overload":{"nv": 23, "labels": [
               {"value": 0, "label": "CH2 - Input Changed"},
-              {"value": 1, "label": "CH2 - Input Changed"},
+              {"value": 1, "label": "CH2 - Output Changed"},
               {"value": 2, "label": "CH2 - Reached OFF"},
               {"value": 3, "label": "CH2 - Input Changed"},
               {"value": 4, "label": "CH2 - AT1"},
@@ -8064,7 +8064,7 @@
         },
         {"value": 16, "overload":{"nv": 30, "labels": [
               {"value": 0, "label": "CH3 - Input Changed"},
-              {"value": 1, "label": "CH3 - Input Changed"},
+              {"value": 1, "label": "CH3 - Output Changed"},
               {"value": 2, "label": "CH3 - Reached OFF"},
               {"value": 3, "label": "CH3 - Input Changed"},
               {"value": 4, "label": "CH3 - AT1"},
@@ -8094,7 +8094,7 @@
         },
         {"value": 20, "overload":{"nv": 37, "labels": [
               {"value": 0, "label": "CH4 - Input Changed"},
-              {"value": 1, "label": "CH4 - Input Changed"},
+              {"value": 1, "label": "CH4 - Output Changed"},
               {"value": 2, "label": "CH4 - Reached OFF"},
               {"value": 3, "label": "CH4 - Input Changed"},
               {"value": 4, "label": "CH4 - AT1"},
@@ -8124,7 +8124,7 @@
         },
         {"value": 24, "overload":{"nv": 44, "labels": [
               {"value": 0, "label": "CH5 - Input Changed"},
-              {"value": 1, "label": "CH5 - Input Changed"},
+              {"value": 1, "label": "CH5 - Output Changed"},
               {"value": 2, "label": "CH5 - Reached OFF"},
               {"value": 3, "label": "CH5 - Input Changed"},
               {"value": 4, "label": "CH5 - AT1"},
@@ -8154,7 +8154,7 @@
         },
         {"value": 28, "overload":{"nv": 51, "labels": [
               {"value": 0, "label": "CH6 - Input Changed"},
-              {"value": 1, "label": "CH6 - Input Changed"},
+              {"value": 1, "label": "CH6 - Output Changed"},
               {"value": 2, "label": "CH6 - Reached OFF"},
               {"value": 3, "label": "CH6 - Input Changed"},
               {"value": 4, "label": "CH6 - AT1"},
@@ -8184,7 +8184,7 @@
         },
         {"value": 32, "overload":{"nv": 58, "labels": [
               {"value": 0, "label": "CH7 - Input Changed"},
-              {"value": 1, "label": "CH7 - Input Changed"},
+              {"value": 1, "label": "CH7 - Output Changed"},
               {"value": 2, "label": "CH7 - Reached OFF"},
               {"value": 3, "label": "CH7 - Input Changed"},
               {"value": 4, "label": "CH7 - AT1"},
@@ -8214,7 +8214,7 @@
         },
         {"value": 36, "overload":{"nv": 65, "labels": [
               {"value": 0, "label": "CH8 - Input Changed"},
-              {"value": 1, "label": "CH8 - Input Changed"},
+              {"value": 1, "label": "CH8 - Output Changed"},
               {"value": 2, "label": "CH8 - Reached OFF"},
               {"value": 3, "label": "CH8 - Input Changed"},
               {"value": 4, "label": "CH8 - AT1"},
@@ -8244,7 +8244,7 @@
         },
         {"value": 40, "overload":{"nv": 72, "labels": [
               {"value": 0, "label": "CH9 - Input Changed"},
-              {"value": 1, "label": "CH9 - Input Changed"},
+              {"value": 1, "label": "CH9 - Output Changed"},
               {"value": 2, "label": "CH9 - Reached OFF"},
               {"value": 3, "label": "CH9 - Input Changed"},
               {"value": 4, "label": "CH9 - AT1"},
@@ -8274,7 +8274,7 @@
         },
         {"value": 44, "overload":{"nv": 79, "labels": [
               {"value": 0, "label": "CH10 - Input Changed"},
-              {"value": 1, "label": "CH10 - Input Changed"},
+              {"value": 1, "label": "CH10 - Output Changed"},
               {"value": 2, "label": "CH10 - Reached OFF"},
               {"value": 3, "label": "CH10 - Input Changed"},
               {"value": 4, "label": "CH10 - AT1"},
@@ -8304,7 +8304,7 @@
         },
         {"value": 48, "overload":{"nv": 86, "labels": [
               {"value": 0, "label": "CH11 - Input Changed"},
-              {"value": 1, "label": "CH11 - Input Changed"},
+              {"value": 1, "label": "CH11 - Output Changed"},
               {"value": 2, "label": "CH11 - Reached OFF"},
               {"value": 3, "label": "CH11 - Input Changed"},
               {"value": 4, "label": "CH11 - AT1"},
@@ -8334,7 +8334,7 @@
         },
         {"value": 52, "overload":{"nv": 93, "labels": [
               {"value": 0, "label": "CH12 - Input Changed"},
-              {"value": 1, "label": "CH12 - Input Changed"},
+              {"value": 1, "label": "CH12 - Output Changed"},
               {"value": 2, "label": "CH12 - Reached OFF"},
               {"value": 3, "label": "CH12 - Input Changed"},
               {"value": 4, "label": "CH12 - AT1"},
@@ -8364,7 +8364,7 @@
         },
         {"value": 56, "overload":{"nv": 100, "labels": [
               {"value": 0, "label": "CH13 - Input Changed"},
-              {"value": 1, "label": "CH13 - Input Changed"},
+              {"value": 1, "label": "CH13 - Output Changed"},
               {"value": 2, "label": "CH13 - Reached OFF"},
               {"value": 3, "label": "CH13 - Input Changed"},
               {"value": 4, "label": "CH13 - AT1"},
@@ -8394,7 +8394,7 @@
         },
         {"value": 60, "overload":{"nv": 107, "labels": [
               {"value": 0, "label": "CH14 - Input Changed"},
-              {"value": 1, "label": "CH14 - Input Changed"},
+              {"value": 1, "label": "CH14 - Output Changed"},
               {"value": 2, "label": "CH14 - Reached OFF"},
               {"value": 3, "label": "CH14 - Input Changed"},
               {"value": 4, "label": "CH14 - AT1"},
@@ -8424,7 +8424,7 @@
         },
         {"value": 64, "overload":{"nv": 114, "labels": [
               {"value": 0, "label": "CH15 - Input Changed"},
-              {"value": 1, "label": "CH15 - Input Changed"},
+              {"value": 1, "label": "CH15 - Output Changed"},
               {"value": 2, "label": "CH15 - Reached OFF"},
               {"value": 3, "label": "CH15 - Input Changed"},
               {"value": 4, "label": "CH15 - AT1"},
@@ -8454,7 +8454,7 @@
         },
         {"value": 68, "overload":{"nv": 121, "labels": [
               {"value": 0, "label": "CH16 - Input Changed"},
-              {"value": 1, "label": "CH16 - Input Changed"},
+              {"value": 1, "label": "CH16 - Output Changed"},
               {"value": 2, "label": "CH16 - Reached OFF"},
               {"value": 3, "label": "CH16 - Input Changed"},
               {"value": 4, "label": "CH16 - AT1"},
