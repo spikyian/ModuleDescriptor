@@ -437,9 +437,9 @@ do
     cat <<EOF
         {"value": $((4+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 0, "label": "CH$ch - Input Changed"},
-              {"value": 1, "label": "CH$ch - Input Changed"},
+              {"value": 1, "label": "CH$ch - Output Changed"},
               {"value": 2, "label": "CH$ch - Reached OFF"},
-              {"value": 3, "label": "CH$ch - Input Changed"},
+              {"value": 3, "label": "CH$ch - Output Changed"},
               {"value": 4, "label": "CH$ch - AT1"},
               {"value": 5, "label": "CH$ch - Threshold"},
               {"value": 6, "label": "CH$ch - Lower Threshold"}

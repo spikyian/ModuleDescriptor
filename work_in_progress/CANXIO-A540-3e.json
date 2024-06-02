@@ -64,7 +64,7 @@
             }
           ]
         },
-        { "displayTitle": "CH 1",
+        { "displayTitle": "Channel 1",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -393,7 +393,7 @@
           ],
           "comment":"end of channel 1"
         },
-        { "displayTitle": "CH 2",
+        { "displayTitle": "Channel 2",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -722,7 +722,7 @@
           ],
           "comment":"end of channel 2"
         },
-        { "displayTitle": "CH 3",
+        { "displayTitle": "Channel 3",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1051,7 +1051,7 @@
           ],
           "comment":"end of channel 3"
         },
-        { "displayTitle": "CH 4",
+        { "displayTitle": "Channel 4",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1380,7 +1380,7 @@
           ],
           "comment":"end of channel 4"
         },
-        { "displayTitle": "CH 5",
+        { "displayTitle": "Channel 5",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -1709,7 +1709,7 @@
           ],
           "comment":"end of channel 5"
         },
-        { "displayTitle": "CH 6",
+        { "displayTitle": "Channel 6",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2038,7 +2038,7 @@
           ],
           "comment":"end of channel 6"
         },
-        { "displayTitle": "CH 7",
+        { "displayTitle": "Channel 7",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2367,7 +2367,7 @@
           ],
           "comment":"end of channel 7"
         },
-        { "displayTitle": "CH 8",
+        { "displayTitle": "Channel 8",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -2696,7 +2696,7 @@
           ],
           "comment":"end of channel 8"
         },
-        { "displayTitle": "CH 9",
+        { "displayTitle": "Channel 9",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3027,7 +3027,7 @@
           ],
           "comment":"end of channel 9"
         },
-        { "displayTitle": "CH 10",
+        { "displayTitle": "Channel 10",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3358,7 +3358,7 @@
           ],
           "comment":"end of channel 10"
         },
-        { "displayTitle": "CH 11",
+        { "displayTitle": "Channel 11",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -3689,7 +3689,7 @@
           ],
           "comment":"end of channel 11"
         },
-        { "displayTitle": "CH 12",
+        { "displayTitle": "Channel 12",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4018,7 +4018,7 @@
           ],
           "comment":"end of channel 12"
         },
-        { "displayTitle": "CH 13",
+        { "displayTitle": "Channel 13",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4349,7 +4349,7 @@
           ],
           "comment":"end of channel 13"
         },
-        { "displayTitle": "CH 14",
+        { "displayTitle": "Channel 14",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -4680,7 +4680,7 @@
           ],
           "comment":"end of channel 14"
         },
-        { "displayTitle": "CH 15",
+        { "displayTitle": "Channel 15",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5011,7 +5011,7 @@
           ],
           "comment":"end of channel 15"
         },
-        { "displayTitle": "CH 16",
+        { "displayTitle": "Channel 16",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5342,7 +5342,7 @@
           ],
           "comment":"end of channel 16"
         },
-        { "displayTitle": "CH 17",
+        { "displayTitle": "Channel 17",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -5673,7 +5673,7 @@
           ],
           "comment":"end of channel 17"
         },
-        { "displayTitle": "CH 18",
+        { "displayTitle": "Channel 18",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6004,7 +6004,7 @@
           ],
           "comment":"end of channel 18"
         },
-        { "displayTitle": "CH 19",
+        { "displayTitle": "Channel 19",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6335,7 +6335,7 @@
           ],
           "comment":"end of channel 19"
         },
-        { "displayTitle": "CH 20",
+        { "displayTitle": "Channel 20",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6666,7 +6666,7 @@
           ],
           "comment":"end of channel 20"
         },
-        { "displayTitle": "CH 21",
+        { "displayTitle": "Channel 21",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -6997,7 +6997,7 @@
           ],
           "comment":"end of channel 21"
         },
-        { "displayTitle": "CH 22",
+        { "displayTitle": "Channel 22",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -7328,7 +7328,7 @@
           ],
           "comment":"end of channel 22"
         },
-        { "displayTitle": "CH 23",
+        { "displayTitle": "Channel 23",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -7659,7 +7659,7 @@
           ],
           "comment":"end of channel 23"
         },
-        { "displayTitle": "CH 24",
+        { "displayTitle": "Channel 24",
           "items": [
             {
               "type": "NodeVariableSelect",
@@ -8004,9 +8004,9 @@
         {"value": 1, "label": "Startup event (1)"},
         {"value": 8, "overload":{"nv": 16, "labels": [
               {"value": 0, "label": "CH1 - Input Changed"},
-              {"value": 1, "label": "CH1 - Input Changed"},
+              {"value": 1, "label": "CH1 - Output Changed"},
               {"value": 2, "label": "CH1 - Reached OFF"},
-              {"value": 3, "label": "CH1 - Input Changed"},
+              {"value": 3, "label": "CH1 - Output Changed"},
               {"value": 4, "label": "CH1 - AT1"},
               {"value": 5, "label": "CH1 - Threshold"},
               {"value": 6, "label": "CH1 - Lower Threshold"}
@@ -8034,9 +8034,9 @@
         },
         {"value": 12, "overload":{"nv": 23, "labels": [
               {"value": 0, "label": "CH2 - Input Changed"},
-              {"value": 1, "label": "CH2 - Input Changed"},
+              {"value": 1, "label": "CH2 - Output Changed"},
               {"value": 2, "label": "CH2 - Reached OFF"},
-              {"value": 3, "label": "CH2 - Input Changed"},
+              {"value": 3, "label": "CH2 - Output Changed"},
               {"value": 4, "label": "CH2 - AT1"},
               {"value": 5, "label": "CH2 - Threshold"},
               {"value": 6, "label": "CH2 - Lower Threshold"}
@@ -8064,9 +8064,9 @@
         },
         {"value": 16, "overload":{"nv": 30, "labels": [
               {"value": 0, "label": "CH3 - Input Changed"},
-              {"value": 1, "label": "CH3 - Input Changed"},
+              {"value": 1, "label": "CH3 - Output Changed"},
               {"value": 2, "label": "CH3 - Reached OFF"},
-              {"value": 3, "label": "CH3 - Input Changed"},
+              {"value": 3, "label": "CH3 - Output Changed"},
               {"value": 4, "label": "CH3 - AT1"},
               {"value": 5, "label": "CH3 - Threshold"},
               {"value": 6, "label": "CH3 - Lower Threshold"}
@@ -8094,9 +8094,9 @@
         },
         {"value": 20, "overload":{"nv": 37, "labels": [
               {"value": 0, "label": "CH4 - Input Changed"},
-              {"value": 1, "label": "CH4 - Input Changed"},
+              {"value": 1, "label": "CH4 - Output Changed"},
               {"value": 2, "label": "CH4 - Reached OFF"},
-              {"value": 3, "label": "CH4 - Input Changed"},
+              {"value": 3, "label": "CH4 - Output Changed"},
               {"value": 4, "label": "CH4 - AT1"},
               {"value": 5, "label": "CH4 - Threshold"},
               {"value": 6, "label": "CH4 - Lower Threshold"}
@@ -8124,9 +8124,9 @@
         },
         {"value": 24, "overload":{"nv": 44, "labels": [
               {"value": 0, "label": "CH5 - Input Changed"},
-              {"value": 1, "label": "CH5 - Input Changed"},
+              {"value": 1, "label": "CH5 - Output Changed"},
               {"value": 2, "label": "CH5 - Reached OFF"},
-              {"value": 3, "label": "CH5 - Input Changed"},
+              {"value": 3, "label": "CH5 - Output Changed"},
               {"value": 4, "label": "CH5 - AT1"},
               {"value": 5, "label": "CH5 - Threshold"},
               {"value": 6, "label": "CH5 - Lower Threshold"}
@@ -8154,9 +8154,9 @@
         },
         {"value": 28, "overload":{"nv": 51, "labels": [
               {"value": 0, "label": "CH6 - Input Changed"},
-              {"value": 1, "label": "CH6 - Input Changed"},
+              {"value": 1, "label": "CH6 - Output Changed"},
               {"value": 2, "label": "CH6 - Reached OFF"},
-              {"value": 3, "label": "CH6 - Input Changed"},
+              {"value": 3, "label": "CH6 - Output Changed"},
               {"value": 4, "label": "CH6 - AT1"},
               {"value": 5, "label": "CH6 - Threshold"},
               {"value": 6, "label": "CH6 - Lower Threshold"}
@@ -8184,9 +8184,9 @@
         },
         {"value": 32, "overload":{"nv": 58, "labels": [
               {"value": 0, "label": "CH7 - Input Changed"},
-              {"value": 1, "label": "CH7 - Input Changed"},
+              {"value": 1, "label": "CH7 - Output Changed"},
               {"value": 2, "label": "CH7 - Reached OFF"},
-              {"value": 3, "label": "CH7 - Input Changed"},
+              {"value": 3, "label": "CH7 - Output Changed"},
               {"value": 4, "label": "CH7 - AT1"},
               {"value": 5, "label": "CH7 - Threshold"},
               {"value": 6, "label": "CH7 - Lower Threshold"}
@@ -8214,9 +8214,9 @@
         },
         {"value": 36, "overload":{"nv": 65, "labels": [
               {"value": 0, "label": "CH8 - Input Changed"},
-              {"value": 1, "label": "CH8 - Input Changed"},
+              {"value": 1, "label": "CH8 - Output Changed"},
               {"value": 2, "label": "CH8 - Reached OFF"},
-              {"value": 3, "label": "CH8 - Input Changed"},
+              {"value": 3, "label": "CH8 - Output Changed"},
               {"value": 4, "label": "CH8 - AT1"},
               {"value": 5, "label": "CH8 - Threshold"},
               {"value": 6, "label": "CH8 - Lower Threshold"}
@@ -8244,9 +8244,9 @@
         },
         {"value": 40, "overload":{"nv": 72, "labels": [
               {"value": 0, "label": "CH9 - Input Changed"},
-              {"value": 1, "label": "CH9 - Input Changed"},
+              {"value": 1, "label": "CH9 - Output Changed"},
               {"value": 2, "label": "CH9 - Reached OFF"},
-              {"value": 3, "label": "CH9 - Input Changed"},
+              {"value": 3, "label": "CH9 - Output Changed"},
               {"value": 4, "label": "CH9 - AT1"},
               {"value": 5, "label": "CH9 - Threshold"},
               {"value": 6, "label": "CH9 - Lower Threshold"}
@@ -8274,9 +8274,9 @@
         },
         {"value": 44, "overload":{"nv": 79, "labels": [
               {"value": 0, "label": "CH10 - Input Changed"},
-              {"value": 1, "label": "CH10 - Input Changed"},
+              {"value": 1, "label": "CH10 - Output Changed"},
               {"value": 2, "label": "CH10 - Reached OFF"},
-              {"value": 3, "label": "CH10 - Input Changed"},
+              {"value": 3, "label": "CH10 - Output Changed"},
               {"value": 4, "label": "CH10 - AT1"},
               {"value": 5, "label": "CH10 - Threshold"},
               {"value": 6, "label": "CH10 - Lower Threshold"}
@@ -8304,9 +8304,9 @@
         },
         {"value": 48, "overload":{"nv": 86, "labels": [
               {"value": 0, "label": "CH11 - Input Changed"},
-              {"value": 1, "label": "CH11 - Input Changed"},
+              {"value": 1, "label": "CH11 - Output Changed"},
               {"value": 2, "label": "CH11 - Reached OFF"},
-              {"value": 3, "label": "CH11 - Input Changed"},
+              {"value": 3, "label": "CH11 - Output Changed"},
               {"value": 4, "label": "CH11 - AT1"},
               {"value": 5, "label": "CH11 - Threshold"},
               {"value": 6, "label": "CH11 - Lower Threshold"}
@@ -8334,9 +8334,9 @@
         },
         {"value": 52, "overload":{"nv": 93, "labels": [
               {"value": 0, "label": "CH12 - Input Changed"},
-              {"value": 1, "label": "CH12 - Input Changed"},
+              {"value": 1, "label": "CH12 - Output Changed"},
               {"value": 2, "label": "CH12 - Reached OFF"},
-              {"value": 3, "label": "CH12 - Input Changed"},
+              {"value": 3, "label": "CH12 - Output Changed"},
               {"value": 4, "label": "CH12 - AT1"},
               {"value": 5, "label": "CH12 - Threshold"},
               {"value": 6, "label": "CH12 - Lower Threshold"}
@@ -8364,9 +8364,9 @@
         },
         {"value": 56, "overload":{"nv": 100, "labels": [
               {"value": 0, "label": "CH13 - Input Changed"},
-              {"value": 1, "label": "CH13 - Input Changed"},
+              {"value": 1, "label": "CH13 - Output Changed"},
               {"value": 2, "label": "CH13 - Reached OFF"},
-              {"value": 3, "label": "CH13 - Input Changed"},
+              {"value": 3, "label": "CH13 - Output Changed"},
               {"value": 4, "label": "CH13 - AT1"},
               {"value": 5, "label": "CH13 - Threshold"},
               {"value": 6, "label": "CH13 - Lower Threshold"}
@@ -8394,9 +8394,9 @@
         },
         {"value": 60, "overload":{"nv": 107, "labels": [
               {"value": 0, "label": "CH14 - Input Changed"},
-              {"value": 1, "label": "CH14 - Input Changed"},
+              {"value": 1, "label": "CH14 - Output Changed"},
               {"value": 2, "label": "CH14 - Reached OFF"},
-              {"value": 3, "label": "CH14 - Input Changed"},
+              {"value": 3, "label": "CH14 - Output Changed"},
               {"value": 4, "label": "CH14 - AT1"},
               {"value": 5, "label": "CH14 - Threshold"},
               {"value": 6, "label": "CH14 - Lower Threshold"}
@@ -8424,9 +8424,9 @@
         },
         {"value": 64, "overload":{"nv": 114, "labels": [
               {"value": 0, "label": "CH15 - Input Changed"},
-              {"value": 1, "label": "CH15 - Input Changed"},
+              {"value": 1, "label": "CH15 - Output Changed"},
               {"value": 2, "label": "CH15 - Reached OFF"},
-              {"value": 3, "label": "CH15 - Input Changed"},
+              {"value": 3, "label": "CH15 - Output Changed"},
               {"value": 4, "label": "CH15 - AT1"},
               {"value": 5, "label": "CH15 - Threshold"},
               {"value": 6, "label": "CH15 - Lower Threshold"}
@@ -8454,9 +8454,9 @@
         },
         {"value": 68, "overload":{"nv": 121, "labels": [
               {"value": 0, "label": "CH16 - Input Changed"},
-              {"value": 1, "label": "CH16 - Input Changed"},
+              {"value": 1, "label": "CH16 - Output Changed"},
               {"value": 2, "label": "CH16 - Reached OFF"},
-              {"value": 3, "label": "CH16 - Input Changed"},
+              {"value": 3, "label": "CH16 - Output Changed"},
               {"value": 4, "label": "CH16 - AT1"},
               {"value": 5, "label": "CH16 - Threshold"},
               {"value": 6, "label": "CH16 - Lower Threshold"}
