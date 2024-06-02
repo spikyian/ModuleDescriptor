@@ -55,6 +55,7 @@ cat <<EOF
           "type": "EventVariableSelect",
           "eventVariableIndex": 13,
           "options": [
+            { "value":   0, "label": "Undefined (0)" },
             { "value": 255, "label": "Normal" },
             { "value": 254, "label": "ON Only" },
             { "value": 253, "label": "OFF Only" },
