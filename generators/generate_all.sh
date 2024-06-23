@@ -11,11 +11,11 @@ echo "Generated $wip_dir/CANLEVER-0D20-1a.json"
 $gen_dir/generate_CANMIO-SVO.sh > $wip_dir/CANMIO-SVO-A532-4s.json
 echo "Generated $wip_dir/CANMIO-SVO-A532-4s.json"
 
-$gen_dir/generate_CANMIO.sh > $wip_dir/CANMIO-A520-3a.json
+$gen_dir/generate_CANMIO.sh 3a > $wip_dir/CANMIO-A520-3a.json
 echo "Generated $wip_dir/CANMIO-A520-3a.json"
-$gen_dir/generate_CANMIO.sh > $wip_dir/CANMIO-A520-3c.json
+$gen_dir/generate_CANMIO.sh 3c > $wip_dir/CANMIO-A520-3c.json
 echo "Generated $wip_dir/CANMIO-A520-3c.json"
-$gen_dir/generate_CANMIO-A520-3d.sh > $wip_dir/CANMIO-A520-3d.json
+$gen_dir/generate_CANMIO.sh 3d > $wip_dir/CANMIO-A520-3d.json
 echo "Generated $wip_dir/CANMIO-A520-3d.json"
 $gen_dir/generate_CANMIO-A520-3e.sh > $wip_dir/CANMIO-A520-3e.json
 echo "Generated $wip_dir/CANMIO-A520-3e.json"
