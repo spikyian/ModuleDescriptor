@@ -79,7 +79,7 @@ EOF
 
 for ch in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
 do
-    if [ $ver = "3d" -a $ch -ge 9 -a $ch -le 16 -a $ch -ne 12 ]
+    if [ \( $ver = "3d" -o $ver = "3e" \) -a $ch -ge 9 -a $ch -le 16 -a $ch -ne 12 ]
     then
       ioTypes='{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
@@ -160,7 +160,7 @@ do
               ]
             },
 EOF
-    if [ $ver = "3d" ]
+    if [ $ver = "3d" -o $ver = "3e" ]
     then
       cat <<EOF
             {
@@ -226,7 +226,7 @@ EOF
               "outputOnWrite": true
             },
 EOF
-    if [ $ver = "3d" ]
+    if [ $ver = "3d" -o $ver = "3e" ]
     then
       cat <<EOF
             {
@@ -280,7 +280,7 @@ EOF
               "outputOnWrite": true
             },
 EOF
-    if [ $ver = "3d" ]
+    if [ $ver = "3d" -o $ver = "3e" ]
     then
       cat <<EOF
             {
@@ -335,7 +335,7 @@ EOF
               "outputOnWrite": true
             },
 EOF
-    if [ $ver = "3d" ]
+    if [ $ver = "3d" -o $ver = "3e" ]
     then
       cat <<EOF
             {
@@ -371,7 +371,7 @@ EOF
               "outputOnWrite": true
             },
 EOF
-    if [ $ver = "3d" ]
+    if [ $ver = "3d" -o $ver = "3e" ]
     then
       cat <<EOF
             {
@@ -457,7 +457,7 @@ EOF
                       {"value": 4, "label": "ACTION_INVERTED"}
 EOF
 ;;
-    3d )
+    3d | 3e)
       cat <<EOF
                       {"value": 0, "label": "INPUT_DISABLE_SOD_RESPONSE"},
                       {"value": 1, "label": "ACTION_INVERTED"},
@@ -475,7 +475,23 @@ EOF
                 },
                 {"bitPosition": 6, "label": "EVENT_INVERTED"},
                 {"bitPosition": 7, "overload":{"nv": $((9+$ch*7)), "labels": [
+EOF
+    case $ver in
+    3a | 3c | 3d )
+      cat <<EOF
                       {"value": 1, "label": "ACTION_EXPEDITED"}
+EOF
+;;
+    3e)
+      cat <<EOF
+                      {"value": 1, "label": "ACTION_EXPEDITED"},
+                      {"value": 2, "label": "EXTENDED 180 DEGREE RANGE"},
+                      {"value": 3, "label": "EXTENDED 180 DEGREE RANGE"},
+                      {"value": 4, "label": "EXTENDED 180 DEGREE RANGE"}
+EOF
+;;
+    esac
+    cat <<EOF
                     ]
                   }
                 }
@@ -518,7 +534,7 @@ EOF
               {"value": 4, "label": "CH$ch - AT1"}
 EOF
 ;;
-    3d )
+    3d | 3e )
       cat <<EOF
               {"value": 0, "label": "CH$ch - Input Changed"},
               {"value": 1, "label": "CH$ch - Output Changed"},
@@ -545,7 +561,7 @@ EOF
               {"value": 4, "label": "CH$ch - AT2"}
 EOF
 ;;
-    3d )
+    3d | 3e )
       cat <<EOF
               {"value": 0, "label": "CH$ch - TWO_ON"},
               {"value": 2, "label": "CH$ch - Reached MID"},
