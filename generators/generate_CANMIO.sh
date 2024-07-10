@@ -601,6 +601,7 @@ do
     cat <<EOF
     {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": $ev,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV$ev",
@@ -659,6 +660,13 @@ done
 cat <<EOF
       ],
       "comment":"end of EV$ev"
+    },
+    {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV$ev",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": $ev,
+      "bit": 7
     }${ending[$(($ev == 8))]}
 EOF
 done # ev

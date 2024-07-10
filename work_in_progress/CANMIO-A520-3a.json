@@ -4616,6 +4616,7 @@
     },
     {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 2,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV2",
@@ -5222,7 +5223,15 @@
       "comment":"end of EV2"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV2",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 2,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 3,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV3",
@@ -5829,7 +5838,15 @@
       "comment":"end of EV3"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV3",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 3,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 4,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV4",
@@ -6436,7 +6453,15 @@
       "comment":"end of EV4"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV4",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 4,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 5,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV5",
@@ -7043,7 +7068,15 @@
       "comment":"end of EV5"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV5",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 5,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 6,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV6",
@@ -7650,7 +7683,15 @@
       "comment":"end of EV6"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV6",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 6,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 7,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV7",
@@ -8257,7 +8298,15 @@
       "comment":"end of EV7"
     },
     {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV7",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 7,
+      "bit": 7
+    },
+    {
       "type": "EventVariableSelect",
+      "bitMask": 127,
       "eventVariableIndex": 8,
       "displayTitle": "Consumed event",
       "displaySubTitle": "EV8",
@@ -8862,6 +8911,13 @@
         }
       ],
       "comment":"end of EV8"
+    },
+    {
+      "displayTitle": "Simultaneous",
+      "displaySubTitle": "EV8",
+      "type": "EventVariableBitSingle",
+      "eventVariableIndex": 8,
+      "bit": 7
     }
   ]
 }
