@@ -5829,11 +5829,14 @@
       "comment":"end of EV1"
     },
     {
+      "displayTitle": "Consumed Event - EV2",
+      "type": "EventVariableGroup",
+      "groupItems": [
+    {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 2,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV2",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -6438,17 +6441,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV2",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 2,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV3",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 3,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV3",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -7053,17 +7060,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV3",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 3,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV4",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 4,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV4",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -7668,17 +7679,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV4",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 4,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV5",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 5,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV5",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -8283,17 +8298,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV5",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 5,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV6",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 6,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV6",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -8898,17 +8917,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV6",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 6,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV7",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 7,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV7",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -9513,17 +9536,21 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV7",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 7,
       "bit": 7
+    }
+      ]
     },
+    {
+      "displayTitle": "Consumed Event - EV8",
+      "type": "EventVariableGroup",
+      "groupItems": [
     {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": 8,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV8",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -10128,10 +10155,11 @@
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV8",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": 8,
       "bit": 7
+    }
+      ]
     }
   ]
 }

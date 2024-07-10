@@ -600,11 +600,14 @@ for ev in 2 3 4 5 6 7 8
 do
     cat <<EOF
     {
+      "displayTitle": "Consumed Event - EV$ev",
+      "type": "EventVariableGroup",
+      "groupItems": [
+    {
       "type": "EventVariableSelect",
       "bitMask": 127,
       "eventVariableIndex": $ev,
-      "displayTitle": "Consumed event",
-      "displaySubTitle": "EV$ev",
+      "displayTitle": "Action",
       "options": [
         {"value": 0, "label": "no action"},
         {"value": 1, "label": "Consumed SOD"},
@@ -663,10 +666,11 @@ cat <<EOF
     },
     {
       "displayTitle": "Simultaneous",
-      "displaySubTitle": "EV$ev",
       "type": "EventVariableBitSingle",
       "eventVariableIndex": $ev,
       "bit": 7
+    }
+      ]
     }${ending[$(($ev == 8))]}
 EOF
 done # ev
