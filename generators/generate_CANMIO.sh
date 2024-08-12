@@ -111,21 +111,22 @@ EOF
 
 for (( ch=1 ; $ch <= $channels ; ++ch ))
 do
-    if [ \( $ver = "3d" -o $ver = "3e" -o $ver = "4a" \) -a $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 ]
+    ioTypes='{"label": "INPUT", "value": 0},
+                {"label": "OUTPUT", "value": 1}'
+    if [ $ch -le 16 ]
     then
-      ioTypes='{"label": "INPUT", "value": 0},
-                {"label": "OUTPUT", "value": 1},
-                {"label": "SERVO", "value": 2},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
-                {"label": "ANALOGUE", "value": 5},
-                {"label": "MAGNET", "value": 6}'
-    else
-      ioTypes='{"label": "INPUT", "value": 0},
-                {"label": "OUTPUT", "value": 1},
-                {"label": "SERVO", "value": 2},
+      # CANXIO does not have timers for channels 17-24
+      ioTypes="$ioTypes"',
+                {"label": "SERVO", "value": 2}'
+    fi
+    ioTypes="$ioTypes"',
                 {"label": "BOUNCE", "value": 3},
                 {"label": "MULTI", "value": 4}'
+    if [ \( $ver = "3d" -o $ver = "3e" -o $ver = "4a" \) -a $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 ]
+    then
+      ioTypes="$ioTypes"',
+                {"label": "ANALOGUE", "value": 5},
+                {"label": "MAGNET", "value": 6}'
     fi
     cat <<EOF
         { "displayTitle": "Channel $ch",
