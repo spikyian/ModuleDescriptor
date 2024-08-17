@@ -19,6 +19,8 @@ $gen_dir/generate_CANMIO.sh 3d > $wip_dir/CANMIO-A520-3d.json
 echo "Generated $wip_dir/CANMIO-A520-3d.json"
 $gen_dir/generate_CANMIO.sh 3e > $wip_dir/CANMIO-A520-3e.json
 echo "Generated $wip_dir/CANMIO-A520-3e.json"
+$gen_dir/generate_CANMIO.sh 4a > $wip_dir/CANMIO-A520-4a.json
+echo "Generated $wip_dir/CANMIO-A520-4a.json"
 
 $gen_dir/generate_CANXIO-A540-3e.sh > $wip_dir/CANXIO-A540-3e.json
 echo "Generated $wip_dir/CANXIO-A540-3e.json"
