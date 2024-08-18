@@ -24,6 +24,8 @@ echo "Generated $wip_dir/CANMIO-A520-4a.json"
 
 $gen_dir/generate_CANMIO.sh XIO 3e > $wip_dir/CANXIO-A540-3e.json
 echo "Generated $wip_dir/CANXIO-A540-3e.json"
+$gen_dir/generate_CANMIO.sh XIO 4a > $wip_dir/CANXIO-A540-4a.json
+echo "Generated $wip_dir/CANXIO-A540-4a.json"
 
 $gen_dir/generate_CANPAN.sh > $wip_dir/CANPAN-A51D-1y.json
 echo "Generated $wip_dir/CANPAN-A51D-1y.json"
