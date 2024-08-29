@@ -6,7 +6,7 @@ This format aims to provide a way to describe a module in a form that can be dig
 # Documents
 Please see the latest [Module Descriptor File Format document](documents/Module%20Descriptor%20File%20Format%20V0.05.pdf) for detailed information.
 
-# file naming
+# File naming
 The naming of the module descriptors follows the following format:
 
 ```<module name>-<module identity>-<version>.json```
@@ -22,6 +22,9 @@ allowing any module id to be used for an individuals own use.
 # work_in_progress
 This folder contains module descriptors that whilst are valid files, are likely to be incomplete, 
 and not yet validated as complete.
+
+See the [Status](Status.md) page for information about current status for
+each descriptor file and what work is left to complete them.
 
 # generators
 This folder contains scripts for some modules that will generate a module descriptor file for 
