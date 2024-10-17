@@ -115,6 +115,64 @@ cat <<EOF
               "displayUnits": "milliseconds"
             },
 EOF
+    if [ "$processor" = "23" ]
+    then
+      cat << EOF
+            {
+              "type": "NodeVariableBitArray",
+              "nodeVariableIndex": 6,
+              "displayTitle": "Pullups for channels 1-8",
+              "displaySubTitle": "",
+              "bitCollection":[
+                {"bitPosition": 0, "label": "Channel 1"},
+                {"bitPosition": 1, "label": "Channel 2"},
+                {"bitPosition": 2, "label": "Channel 3"},
+                {"bitPosition": 3, "label": "Channel 4"},
+                {"bitPosition": 4, "label": "Channel 5"},
+                {"bitPosition": 5, "label": "Channel 6"},
+                {"bitPosition": 6, "label": "Channel 7"},
+                {"bitPosition": 7, "label": "Channel 8"}
+              ]
+            },
+            {
+              "type": "NodeVariableBitArray",
+              "nodeVariableIndex": 7,
+              "displayTitle": "Pullups for channels 9-16",
+              "displaySubTitle": "",
+              "bitCollection":[
+                {"bitPosition": 0, "label": "Channel 9"},
+                {"bitPosition": 1, "label": "Channel 10"},
+                {"bitPosition": 2, "label": "Channel 11"},
+                {"bitPosition": 3, "label": "Channel 12"},
+                {"bitPosition": 4, "label": "Channel 13"},
+                {"bitPosition": 5, "label": "Channel 14"},
+                {"bitPosition": 6, "label": "Channel 15"},
+                {"bitPosition": 7, "label": "Channel 16"}
+              ]
+            },
+EOF
+        if [ "$type" = "XIO" ]
+        then
+          cat <<EOF
+            {
+              "type": "NodeVariableBitArray",
+              "nodeVariableIndex": 8,
+              "displayTitle": "Pullups for channels 17-24",
+              "displaySubTitle": "",
+              "bitCollection":[
+                {"bitPosition": 0, "label": "Channel 17"},
+                {"bitPosition": 1, "label": "Channel 18"},
+                {"bitPosition": 2, "label": "Channel 19"},
+                {"bitPosition": 3, "label": "Channel 20"},
+                {"bitPosition": 4, "label": "Channel 21"},
+                {"bitPosition": 5, "label": "Channel 22"},
+                {"bitPosition": 6, "label": "Channel 23"},
+                {"bitPosition": 7, "label": "Channel 24"}
+              ]
+            },
+EOF
+        fi
+    fi
     if [ "$type" = "XIO" ]
     then
       cat <<EOF
@@ -163,7 +221,7 @@ do
     ioTypes="$ioTypes"',
                 {"label": "BOUNCE", "value": 3},
                 {"label": "MULTI", "value": 4}'
-    if [ -n "$hasAnalogue" -a $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 ]
+    if [ -n "$hasAnalogue" -a \( "$processor" = "23" -o \( $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 \) \) ]
     then
       ioTypes="$ioTypes"',
                 {"label": "ANALOGUE", "value": 5},
