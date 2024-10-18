@@ -15,6 +15,7 @@ ending[1]=''  # True  - at end of list, omit trailing comma.
 # Default module type is CANMIO
 moduleName=CANMIO
 channels=16
+processorSeries=K
 
 while getopts 't:p:v:' opt; do
   case "$opt" in
@@ -34,6 +35,17 @@ while getopts 't:p:v:' opt; do
       ;;
     p)
       processor=$OPTARG
+      case $OPTARG in
+      21 ) # PIC18F27Q84
+        processorSeries=Q
+        ;;
+      22 ) # PIC18F47Q84
+        processorSeries=Q
+        ;;
+      23 ) # PIC18F27Q83
+        processorSeries=Q
+        ;;
+      esac
       ;;
     v)
       ver=$OPTARG
@@ -73,6 +85,17 @@ case $ver in
     exit 1
     ;;
 esac
+
+# A function that can be used as an index to the $ending array.
+function strneq()
+{
+  if [ "$1" = "$2" ]
+  then
+    echo 0
+  else
+    echo 1
+  fi
+}
 
 cat <<EOF
 {
@@ -115,7 +138,7 @@ cat <<EOF
               "displayUnits": "milliseconds"
             },
 EOF
-    if [ "$processor" = "23" ]
+    if [ "$processorSeries" = "Q" ]
     then
       cat << EOF
             {
@@ -149,7 +172,7 @@ EOF
                 {"bitPosition": 6, "label": "Channel 15"},
                 {"bitPosition": 7, "label": "Channel 16"}
               ]
-            },
+            }${ending[$( strneq "$type" "XIO" ) ]}
 EOF
         if [ "$type" = "XIO" ]
         then
@@ -169,13 +192,14 @@ EOF
                 {"bitPosition": 6, "label": "Channel 23"},
                 {"bitPosition": 7, "label": "Channel 24"}
               ]
-            },
+            }
 EOF
         fi
-    fi
-    if [ "$type" = "XIO" ]
-    then
-      cat <<EOF
+    else 
+        # K series
+        if [ "$type" = "XIO" ]
+        then
+          cat <<EOF
             {
               "type": "NodeVariableBitArray",
               "nodeVariableIndex": 6,
@@ -186,8 +210,8 @@ EOF
               ]
             },
 EOF
-    fi
-    cat <<EOF
+        fi
+        cat <<EOF
             {
               "type": "NodeVariableBitArray",
               "nodeVariableIndex": 4,
@@ -204,6 +228,9 @@ EOF
                 {"bitPosition": 7, "label": "Port B7"}
               ]
             }
+EOF
+    fi
+    cat <<EOF
           ]
         },
 EOF
@@ -221,7 +248,8 @@ do
     ioTypes="$ioTypes"',
                 {"label": "BOUNCE", "value": 3},
                 {"label": "MULTI", "value": 4}'
-    if [ -n "$hasAnalogue" -a \( "$processor" = "23" -o \( $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 \) \) ]
+    # K Series has restrictions on which pins can use with analogue input.
+    if [ -n "$hasAnalogue" -a \( "$processorSeries" = "Q" -o \( $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 \) \) ]
     then
       ioTypes="$ioTypes"',
                 {"label": "ANALOGUE", "value": 5},
