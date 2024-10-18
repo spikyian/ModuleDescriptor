@@ -14,6 +14,7 @@ ending[1]=''  # True  - at end of list, omit trailing comma.
 
 # Default module type is CANMIO
 moduleName=CANMIO
+eventVariables=20
 channels=16
 processorSeries=K
 
@@ -712,7 +713,7 @@ cat <<EOF
     },
 EOF
 
-for ev in 2 3 4 5 6 7 8
+for (( ev=2 ; $ev <= $eventVariables ; ++ev ))
 do
     cat <<EOF
     {
@@ -787,7 +788,7 @@ cat <<EOF
           "bit": 7
         }
       ]
-    }${ending[$(($ev == 8))]}
+    }${ending[$(($ev == $eventVariables))]}
 EOF
 done # ev
 
