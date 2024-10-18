@@ -12,7 +12,7 @@ For Windows system ```bash``` can be provided by [Cygwin](https://www.cygwin.com
 It is recommended the script is run with the output to the 'output' folder - as this is folder is ignored by source control
 e.g. :
 
-```sh generators/generate_CANMIO.sh > output/CANMIO-0D20-9z.json```
+```sh generators/generate_CANPAN.sh > output/CANPAN-0D20-9z.json```
 
 # Writing Generator Scripts
 

@@ -11,12 +11,13 @@ to the ModuleDescriptor repository.
 The following files are complete and need a final review before moving to
 the production directory.
 
-| Filename            | Kit Source                        | Status                 |
-|---------------------|-----------------------------------|------------------------|
-| CANCMD-A50A-4d.json | MERG Kitlocker                    | Tested by Sven Rosvall |
-| CANMIO-A520-xx.json | Universal firmware for CANMIO & CANVxxx kits. | Tested by Sven Rosvall |
-| CANMIO-SVO-A532-4s.json | MERG Kitlocker CANMIO & CANVSERVO | Tested by Sven Rosvall |
-| CANPAN-A51D-1y.json | MERG Kitlocker                    | Tested by Sven Rosvall |
+| Filename                | Kit Source                        | Status                          |
+|-------------------------|-----------------------------------|---------------------------------|
+| CANCMD-A50A-4d.json     | MERG Kitlocker                    | Tested by Sven Rosvall          |
+| CANMIO-A520-xx.json     | Universal firmware for CANMIO & CANVxxx kits. | Tested by Sven Rosvall          |
+| CANMIO-SVO-A532-4s.json | MERG Kitlocker CANMIO & CANVSERVO | Tested by Sven Rosvall          |
+| CANPAN-A51D-1y.json     | MERG Kitlocker                    | Tested by Sven Rosvall          |
+| CANXIO-A540-xx.json     | RME UK                            | Similar to CANMIO with more i/o |
 
 ## Small Changes Required
 The following files are in progress and only small changes are required
@@ -24,7 +25,6 @@ to complete them.
 
 | Filename            | Kit Source                                    | Status                                               |
 |---------------------|-----------------------------------------------|------------------------------------------------------|
-| CANXIO-A540-3e.json | RME UK                                        | Fix for 24 channels. Change in progress by SR.       |
 
 ## Unknown but look complete
 These files have entries for ```nodeVariables``` and ```eventVariables```
