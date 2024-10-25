@@ -212,6 +212,8 @@ EOF
             },
 EOF
         fi
+        # Pull-ups for port B where bits 0, 1, 4, 5 are used.
+        # See https://merg.org.uk/merg_wiki/doku.php?id=cbus:canmio_fw3#i_o_pins
         cat <<EOF
             {
               "type": "NodeVariableBitArray",
@@ -219,14 +221,10 @@ EOF
               "displayTitle": "PORTB Pullups",
               "displaySubTitle": "",
               "bitCollection":[
-                {"bitPosition": 0, "label": "Port B0"},
-                {"bitPosition": 1, "label": "Port B1"},
-                {"bitPosition": 2, "label": "Port B2"},
-                {"bitPosition": 3, "label": "Port B3"},
-                {"bitPosition": 4, "label": "Port B4"},
-                {"bitPosition": 5, "label": "Port B5"},
-                {"bitPosition": 6, "label": "Port B6"},
-                {"bitPosition": 7, "label": "Port B7"}
+                {"bitPosition": 0, "label": "Channel 9"},
+                {"bitPosition": 1, "label": "Channel 10"},
+                {"bitPosition": 4, "label": "Channel 11"},
+                {"bitPosition": 5, "label": "Channel 12"}
               ]
             }
 EOF
