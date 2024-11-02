@@ -240,13 +240,12 @@ do
                 {"label": "OUTPUT", "value": 1}'
     if [ $ch -le 16 ]
     then
-      # CANXIO does not have timers for channels 17-24
+      # CANXIO does not have timers for channels 17-24 thus cannot have servos on these pins.
       ioTypes="$ioTypes"',
-                {"label": "SERVO", "value": 2}'
-    fi
-    ioTypes="$ioTypes"',
+                {"label": "SERVO", "value": 2},
                 {"label": "BOUNCE", "value": 3},
                 {"label": "MULTI", "value": 4}'
+    fi
     # K Series has restrictions on which pins can use with analogue input.
     if [ -n "$hasAnalogue" -a \( "$processorSeries" = "Q" -o \( $ch -ge 9 -a $ch -le $channels -a $ch -ne 12 \) \) ]
     then
