@@ -108,6 +108,7 @@ cat <<EOF
         },
         {
           "displayTitle": "Send Short Event",
+          "displaySubTitle": "Set this when teaching a produced short events",
           "type": "EventVariableBitSingle",
           "eventVariableIndex": 3,
           "bit": 5
@@ -145,6 +146,7 @@ cat <<EOF
         },
         {
           "displayTitle": "Send Short Event",
+          "displaySubTitle": "Set this when teaching a produced short events",
           "type": "EventVariableBitSingle",
           "eventVariableIndex": 3,
           "bit": 5
