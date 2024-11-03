@@ -5392,8 +5392,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -5722,8 +5720,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -6052,8 +6048,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -6382,8 +6376,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -6712,8 +6704,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -7042,8 +7032,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -7372,8 +7360,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
@@ -7702,8 +7688,6 @@
               "displaySubTitle": "",
               "options": [{"label": "INPUT", "value": 0},
                 {"label": "OUTPUT", "value": 1},
-                {"label": "BOUNCE", "value": 3},
-                {"label": "MULTI", "value": 4},
                 {"label": "ANALOGUE", "value": 5},
                 {"label": "MAGNET", "value": 6}]
             },
