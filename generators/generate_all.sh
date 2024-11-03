@@ -37,5 +37,7 @@ echo "Generated $wip_dir/CANXIO-A540-4a.json"
 $gen_dir/generate_CANMIO.sh -t XIO -p22 -v 4a > $wip_dir/CANXIO-A540-4a--P21.json
 echo "Generated $wip_dir/CANXIO-A540-4a--P22.json"
 
-$gen_dir/generate_CANPAN.sh > $wip_dir/CANPAN-A51D-1y.json
-echo "Generated $wip_dir/CANPAN-A51D-1y.json"
+$gen_dir/generate_CANPAN.sh -v 1Y > $wip_dir/CANPAN-A51D-1Y.json
+echo "Generated $wip_dir/CANPAN-A51D-1Y.json"
+$gen_dir/generate_CANPAN.sh -v 4C > $wip_dir/CANPAN-A51D-4C.json
+echo "Generated $wip_dir/CANPAN-A51D-4C.json"
