@@ -39,6 +39,7 @@ but have not been tested.
 | CANACC5-A502-2u.json | Kit Locker Classic                          | |
 | CANACC8-A503-2v.json | Discontinued                                | |
 | CANACE8C-A505-2q.json | Kit Locker Classic                          | |
+| CANCSB-A537-4d        | copy of CANCMD-A50A-4d.json                 | |
 | CANLED64-A507-2g.json | Discontinued                                | |
 | CANSERVO-A50B-2H.json | CANMIO build option. Replaced by CANSERVO8C. | |
 | CANSERVO-A50B-3h.json | CANMIO build option. Replaced by CANSERVO8C. | |
