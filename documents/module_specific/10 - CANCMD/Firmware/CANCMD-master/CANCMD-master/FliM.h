@@ -122,7 +122,7 @@ typedef struct
 //	Typedef 
 //		union
 //		{
-//			NodeBytes	nodevars[NUMBER_OF_NVS];
+//			NodeBytes	nodevars[];
 //			ModuleNodeDefs	module_nodevars;
 //		} NodevarTable
 //
