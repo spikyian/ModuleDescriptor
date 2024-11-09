@@ -1,4 +1,5 @@
 {
+  "timestamp": "202411092105",
   "moduleName":"CANACC5",
   "producedEventLogic":{ "evBit":{"index":3, "bit":7}, "equals": 1 },
   "nodeVariables": [

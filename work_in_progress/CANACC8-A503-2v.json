@@ -1,5 +1,7 @@
 {
-  "moduleName":"CANACC8",
+  "timestamp": "202411092240",
+  "timestamp": "202411092105",
+  "moduleName": "CANACC8",
   "nodeVariables": [
     {
 		"type": "NodeVariableGroup",
