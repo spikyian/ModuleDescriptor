@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# This hook does not know which files are about to be committed.
+# This hook script will revert any locally updated JSON files that only differs
+# in the timestamp element.
+# Then it will update the timestamp element on any remaining updated JSON files.
+
+TZ= datestring=`date +%Y%m%d%H%M`
+
+for f in ` git diff --staged --name-only 2>/dev/null `
+do
+    # Checking staged files
+    case "$f" in
+        *.json) ;;
+        *) continue ;;
+    esac
+    if git diff --staged --ignore-cr-at-eol -I'"timestamp" *:' --exit-code --quiet "$f" 2> /dev/null
+    then
+        # File has not changed other than the timestamp, will roll back. 
+        # This change to "timestamp" has probably come from a generator.
+        git checkout HEAD "$f" 2> /dev/null
+        continue
+    fi
+    
+    # Update the timestamp string
+    ( rm $f ; sed -e "/\"timestamp\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
+    git add $f
+done
+
+for f in ` git diff --name-only 2>/dev/null `
+do
+    # Checking unstaged files
+    case "$f" in
+        *.json) ;;
+        *) continue ;;
+    esac
+    if git diff --ignore-cr-at-eol -I'"timestamp" *:' --exit-code --quiet "$f" 2> /dev/null
+    then
+        # File has not changed other than the timestamp, will roll back." 
+        # This change to "timestamp" has probably come from a generator.
+        git checkout HEAD "$f" 2> /dev/null
+        continue
+    fi
+
+    # Update the timestamp string
+    ( rm $f ; sed -e "/\"timestamp\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
+    git add $f
+done
+
+exit 0

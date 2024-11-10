@@ -35,4 +35,17 @@ A generator is useful where there is repeated information, e.g. the same content
 
 Please see the [README](generators/README.md) in the generator folder for more information.
 
+# Committing Changes
 
+Before committing any changes you must set up Git hooks.
+See the specific [README](git-hooks/README.md) that describes this.
+
+Module descriptor files contain a "timestamp" element that is used to
+check if a user provided descriptor file is older than a system descriptor 
+file.
+It is important to update this "timestamp" element whenever a descriptor file
+is updated.
+
+A Git hook is provided to automatically update the "timestamp" element
+when updates to descriptor files are committed.
+The README file above describes how this hook is set up.
