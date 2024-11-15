@@ -30,38 +30,38 @@ to complete them.
 These files have entries for ```nodeVariables``` and ```eventVariables```
 but have not been tested.
 
-| Filename            | Kit Source                                  | Status                 |
-|---------------------|---------------------------------------------|------------------------|
+| Filename                | Kit Source                                  | Status                 |
+|-------------------------|---------------------------------------------|------------------------|
 | CAN1IN1OUT-0D63-1a.json | Example included in Arduino CBUS Library.   | |
-| CANACC4-A501-2q.json | Discontinued                                | |
-| CANACC4_2-A508-2q.json | Discontinued                                | |
-| CANACC5-A502-2V.json | Kit Locker Classic                          | |
-| CANACC5-A502-2u.json | Kit Locker Classic                          | |
-| CANACC8-A503-2v.json | Discontinued                                | |
-| CANACE8C-A505-2q.json | Kit Locker Classic                          | |
-| CANCSB-A537-4d        | copy of CANCMD-A50A-4d.json                 | |
-| CANLED64-A507-2g.json | Discontinued                                | |
-| CANSERVO-A50B-2H.json | CANMIO build option. Replaced by CANSERVO8C. | |
-| CANSERVO-A50B-3h.json | CANMIO build option. Replaced by CANSERVO8C. | |
-| CANSERVO8C-A513-2u.json | CANMIO build option.                        | |
+| CANACC4-A501-2Q.json    | Discontinued                                | |
+| CANACC4_2-A508-2Q.json  | Discontinued                                | |
+| CANACC5-A502-2V.json    | Kit Locker Classic                          | |
+| CANACC5-A502-2U.json    | Kit Locker Classic                          | |
+| CANACC8-A503-2V.json    | Discontinued                                | |
+| CANACE8C-A505-2q.json   | Kit Locker Classic                          | |
+| CANCSB-A537-4d          | copy of CANCMD-A50A-4d.json                 | |
+| CANLED64-A507-2G.json   | Discontinued                                | |
+| CANSERVO-A50B-2H.json   | CANMIO build option. Replaced by CANSERVO8C. | |
+| CANSERVO-A50B-3H.json   | CANMIO build option. Replaced by CANSERVO8C. | |
+| CANSERVO8C-A513-2U.json | CANMIO build option.                        | |
 | CANSERVO8C-A513-4h.json | CANMIO build option.                        | |
-| CANSLOT-0D03-1a.json | ??                                          | |
-| CANTOTI-A511-2q.json | Runs on CANACE8C                            | |
+| CANSLOT-0D03-1a.json    | ??                                          | |
+| CANTOTI-A511-2q.json    | Runs on CANACE8C                            | |
 | SER1IN1OUT-FAFE-1a.json |                                             | |
 
 ## Files without ```eventVariables```
 These files have been created but event variables have not been added yet.
 
-| Filename            | Kit Source                                           | Status                 |
-|---------------------|------------------------------------------------------|------------------------|
-| CANACE3-A504-2g.json | Discontinued                                         | |
-| CANACE3C-A51E-3a.json | Discontinued                                         | |
+| Filename                | Kit Source                                           | Status                 |
+|-------------------------|------------------------------------------------------|------------------------|
+| CANACE3-A504-2G.json    | Discontinued                                         | |
+| CANACE3C-A51E-3a.json   | Discontinued                                         | |
 | CANACE8MIO-A521-2q.json | CANMIO build option.                                 | |
 | CANBIP-OUT-A535-5b.json | RME UK                                               | |
-| CANINP-A53E-2s.json | Kit locker basic                                     | |
-| CANLEVER-0D20-1a.json | ??                                                   | |
+| CANINP-A53E-2s.json     | Kit locker basic                                     | |
+| CANLEVER-0D20-1a.json   | ??                                                   | |
 | CANMIO-OUT-A534-5b.json | CANMIO-OUT in RME UK; CANVOUT in Kit Locker Advanced | |
-| CANSERVO-A50B-2u.json | CANMIO build option.                                 | |
+| CANSERVO-A50B-2u.json   | CANMIO build option.                                 | |
 
 ## Missing files
 The following modules are available in the MERG Kitlocker or from RME UK but 
