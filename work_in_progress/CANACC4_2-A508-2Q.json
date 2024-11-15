@@ -1,5 +1,5 @@
 {
-  "timestamp": "202411092105",
+  "timestamp": "202411152027",
   "moduleName":"CANACC4",
   "nodeVariables": [
     {
@@ -10,9 +10,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 1,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -24,9 +23,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 2,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -38,9 +36,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 3,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -52,9 +49,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 4,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -66,9 +62,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 5,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -80,9 +75,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 6,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -94,9 +88,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 7,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -108,9 +101,8 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 8,
           "displayTitle": "Pulse Duration",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     },
@@ -122,17 +114,15 @@
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 9,
           "displayTitle": "Recharge timer",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         },
         {
           "type": "NodeVariableSlider",
           "nodeVariableIndex": 10,
           "displayTitle": "Fire Delay",
-          "displaySubTitle": "Range 0 to 2550 milliSeconds",
           "displayScale": 10,
-          "displayUnits": "milliSeconds"
+          "displayUnits": "Milli Seconds"
         }
       ]
     }
