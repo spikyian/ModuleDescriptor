@@ -10,7 +10,7 @@ function writeIfUpdated()
 {
   outFileName=$1
   cat > $tmp_file
-  if diff -qw -I'"timestamp" *:' $outFileName $tmp_file 2>/dev/null
+  if diff -qw -I'"timestamp" *:' $outFileName $tmp_file >/dev/null
   then
     rm $tmp_file
     echo "No changes to $outFileName"

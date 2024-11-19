@@ -419,7 +419,8 @@ EOF
               "nodeVariableIndex": $((13+$ch*7)),
               "displayTitle": "OFF to ON speed",
               "displaySubTitle": "servo specific",
-              "displayUnits": ""
+              "displayUnits": "",
+              "min": 230
             },
             {
               "type": "NodeVariableSlider",
@@ -473,7 +474,8 @@ EOF
               "nodeVariableIndex": $((14+$ch*7)),
               "displayTitle": "ON to OFF speed",
               "displaySubTitle": "servo specific",
-              "displayUnits": ""
+              "displayUnits": "",
+              "min": 230
             },
             {
               "type": "NodeVariableSlider",
