@@ -116,6 +116,16 @@ cat <<EOF
         "equals": 0
       },
       "groupItems": [
+        {
+          "displayTitle": "Mode",
+          "type": "EventVariableSelect",
+          "eventVariableIndex": 3,
+          "bitMask": 3,
+          "options": [
+            {"value": 0, "label": "Set Servo"},
+            {"value": 3, "label": "Start of Day"}
+          ]
+        },
 EOF
 
 for ch in 1 2 3 4 5 6 7 8
@@ -124,6 +134,10 @@ do
         {
           "displayTitle": "Servo $ch",
           "type": "EventVariableGroup",
+          "visibilityLogic": {
+            "evBit": {"index": 3, "bit": 1},
+            "equals": 0
+          },
           "groupItems": [
             {
               "displayTitle": "Set Servo",
