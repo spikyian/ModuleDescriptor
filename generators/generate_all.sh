@@ -23,6 +23,7 @@ function writeIfUpdated()
 $gen_dir/generate_CANLEVER.sh | writeIfUpdated $wip_dir/CANLEVER-0D20-1a.json
 
 $gen_dir/generate_CANMIO-SVO.sh | writeIfUpdated $wip_dir/CANMIO-SVO-A532-4S.json
+$gen_dir/generate_CANMIO-SVO.sh -t CANSERVO8C | writeIfUpdated $wip_dir/CANSERVO8C-A513-4S.json
 
 # CANMIO
 # Default processor is PIC18F26K80
