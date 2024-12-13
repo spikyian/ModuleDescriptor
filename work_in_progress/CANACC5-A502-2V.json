@@ -1,5 +1,5 @@
 {
-  "timestamp": "202412112047",
+  "timestamp": "202412131442",
   "moduleName": "CANACC5",
   "nodeVariables": [
     {
@@ -311,7 +311,11 @@
     {
       "displayTitle": "Event Direction",
       "type": "EventVariableSelect",
-      "visibilityLogic":{ "evBit":{"index":3, "bit":1}, "equals": 0 },
+      "visibilityLogic":{"JLL":{ "or" : [
+          { "==" : [ {"EVbit" : [3, 0]}, false ] }, 
+          { "==" : [ {"EVbit" : [3, 1]}, false ] }
+        ]}        
+      },
       "eventVariableIndex": 3,
       "bitMask": 128,
       "options": [
@@ -328,17 +332,17 @@
     {
       "displayTitle": "Consumed Event",
       "type": "EventVariableGroup",
-      "visibilityLogic": {
-        "evBit": {
-          "index": 3,
-          "bit": 7
-        },
-        "equals": 0
+      "visibilityLogic": { "JLL":
+        { "==" : [ {"EVbit" : [3, 7]}, false ] }
       },
       "groupItems": [
         {
           "type": "EventVariableBitArray",
-          "visibilityLogic":{ "evBit":{"index":3, "bit":1}, "equals": 0 },
+          "visibilityLogic":{"JLL":{ "or" : [
+              { "==" : [ {"EVbit" : [3, 0]}, false ] }, 
+              { "==" : [ {"EVbit" : [3, 1]}, false ] }
+            ]}        
+          },
           "eventVariableIndex": 1,
           "displayTitle": "Output enable",
           "bitCollection": [
@@ -378,7 +382,11 @@
         },
         {
           "type": "EventVariableBitArray",
-          "visibilityLogic":{ "evBit":{"index":3, "bit":1}, "equals": 0 },
+          "visibilityLogic":{"JLL":{ "or" : [
+              { "==" : [ {"EVbit" : [3, 0]}, false ] }, 
+              { "==" : [ {"EVbit" : [3, 1]}, false ] }
+            ]}        
+          },
           "eventVariableIndex": 2,
           "displayTitle": "Enable reverse polarity",
           "bitCollection": [
@@ -428,6 +436,14 @@
               "value": 0
             },
             {
+              "label": "disabled",
+              "value": 1
+            },
+            {
+              "label": "disabled",
+              "value": 2
+            },
+            {
               "label": "enabled",
               "value": 3
             }
@@ -438,9 +454,8 @@
     {
       "displayTitle": "Produced Event",
       "type": "EventVariableGroup",
-      "visibilityLogic": {
-        "evBit": { "index": 3, "bit": 7},
-        "equals": 1
+      "visibilityLogic": { "JLL":
+        { "==" : [ {"EVbit" : [3, 7]}, true ] }
       },
       "groupItems": [
         {
@@ -497,6 +512,10 @@
             {
               "label": "Off event",
               "value": 1
+            },
+            {
+              "label": "Do Nothing",
+              "value": 2
             }
           ]
         }
