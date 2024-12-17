@@ -1,6 +1,6 @@
 {
   "timestamp": "202412171520",
-  "moduleName":"CANCMD",
+  "moduleName":"CANCMDB",
   "nodeVariables": [
     {
       "displayTitle": "Running",
@@ -68,6 +68,13 @@
           "type": "NodeVariableSlider",
           "displayUnits": "iterations",
           "nodeVariableIndex": 15
+        },
+        {
+          "displayTitle": "Enable TOTI Inputs",
+          "visibilityLogic": { "nvBit": {"index": 2, "bit": 7}, "equals": 1},
+          "type": "NodeVariableBitSingle",
+          "nodeVariableIndex": 3,
+          "bit": 5
         }
       ]
     },
@@ -165,6 +172,13 @@
           "type": "NodeVariableSlider",
           "displayUnits": "s",
           "nodeVariableIndex": 13
+        },
+        {
+          "displayTitle": "Shoot Through Delay",
+          "type": "NodeVariableSlider",
+          "displayUnits": "ms",
+          "displayScale": 0.5,
+          "nodeVariableIndex": 10
         }
       ]
     },
