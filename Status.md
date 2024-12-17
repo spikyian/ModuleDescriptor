@@ -67,15 +67,15 @@ These files have been created but event variables have not been added yet.
 The following modules are available in the MERG Kitlocker or from RME UK but 
 do not yet have any Module Descriptor File.
 
-| Module   | Kit Source               | Status                       |
-|----------|--------------------------|------------------------------|
-| CANOUT   | Kit Locker Basic         |                              | 
-| CANSOL   | Kit Locker Basic         |                              | 
-| CANVINP  | Kit Locker Advanced      | Works with Universal firmware. | 
-| CANV4BIP | Kit Locker Advanced      | Works with Universal firmware. |
-| CANCDU   | RME UK                   |                              |
-| CANDISP  | Gerber files one MERG KB |                              |
-| CANSCAN  | Gerber files one MERG KB |                              |
+| Module   | Kit Source          | Status                         |
+|----------|---------------------|--------------------------------|
+| CANOUT   | Kit Locker Basic    |                                | 
+| CANSOL   | Kit Locker Basic    |                                | 
+| CANVINP  | Kit Locker Advanced | Works with Universal firmware. | 
+| CANV4BIP | Kit Locker Advanced | Works with Universal firmware. |
+| CANCDU   | RME UK              |                                |
+| CANDISP  | RME UK              | Development of CANLED64        |
+| CANSCAN  | RME UK              | Develoment of CANACE3C.        |
 
 There are more module firmwares describe in the MERG Knowledgebase.
 These will be added to the wish list upon request.
