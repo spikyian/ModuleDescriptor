@@ -1,5 +1,5 @@
 {
-  "timestamp": "202411092105",
+  "timestamp": "202412171534",
   "moduleName":"CANCMD",
   "nodeVariables": [
     {
@@ -122,18 +122,6 @@
       "displayTitle": "Track Power Control",
       "type": "NodeVariableGroup",
       "groupItems": [
-        {
-          "displayTitle": "J7 Jumper Control",
-          "type": "NodeVariableSelect",
-          "nodeVariableIndex": 3,
-          "bitMask": 3,
-          "options": [
-            {"label": "Use J7", "value": 2},
-            {"label": "Use J7", "value": 3},
-            {"label": "Main Output", "value": 0},
-            {"label": "Use Booster", "value": 1}
-          ]
-        },
         {
           "displayTitle": "Main Current Limit",
           "type": "NodeVariableSlider",
