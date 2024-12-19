@@ -1,5 +1,5 @@
 {
-  "timestamp": "202412171520",
+  "timestamp": "202412192210",
   "moduleName":"CANCMD",
   "nodeVariables": [
     {
@@ -46,7 +46,7 @@
           "displayTitle": "Maximum Speed",
           "type": "NodeVariableSlider",
           "displayUnits": "%",
-          "displayScale": 0.008,
+          "displayScale": 0.769,
           "max" : 130,
           "nodeVariableIndex": 16
         }
