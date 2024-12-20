@@ -44,3 +44,12 @@ $gen_dir/generate_CANMIO.sh -t XIO -p22 -v 4a | writeIfUpdated $wip_dir/CANXIO-A
 
 $gen_dir/generate_CANPAN.sh -v 1Y | writeIfUpdated $wip_dir/CANPAN-A51D-1Y.json
 $gen_dir/generate_CANPAN.sh -v 4C | writeIfUpdated $wip_dir/CANPAN-A51D-4C.json
+
+# CANCMD and successors
+$gen_dir/generate_CANCMD.sh -v 4d | writeIfUpdated $wip_dir/CANCMD-A50A-4d.json
+$gen_dir/generate_CANCMD.sh -v 4f | writeIfUpdated $wip_dir/CANCMD-A50A-4f.json
+
+$gen_dir/generate_CANCMD.sh -t CSB -v 4d | writeIfUpdated $wip_dir/CANCSB-A537-4d.json
+$gen_dir/generate_CANCMD.sh -t CSB -v 4f | writeIfUpdated $wip_dir/CANCSB-A537-4f.json
+
+$gen_dir/generate_CANCMD.sh -t CMDB -v 4f | writeIfUpdated $wip_dir/CANCMDB-A553-4f.json
