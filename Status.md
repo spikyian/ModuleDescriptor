@@ -19,8 +19,8 @@ the production directory.
 | CANCMD-A50A-4d.json     | MERG Kitlocker                    | Tested by Sven Rosvall               |
 | CANMIO-A520-xx.json     | Universal firmware for CANMIO & CANVxxx kits. | Tested by Sven Rosvall               |
 | CANMIO-OUT-A534-5b.json | CANMIO-OUT in RME UK; CANVOUT in Kit Locker Advanced | uses same code base as CANACC5       |
-| CANMIO-SVO-A532-4s.json | MERG Kitlocker CANMIO & CANVSERVO | Tested by Sven Rosvall               |
-| CANSERVO8C-A513-4h.json | CANMIO build option.              | Tested by Greg Palmer.               |
+| CANMIO-SVO-A532-4S.json | MERG Kitlocker CANMIO & CANVSERVO | Tested by Sven Rosvall               |
+| CANSERVO8C-A513-4S.json | CANMIO build option.              | Tested by Greg Palmer.               |
 | CANPAN-A51D-xx.json     | MERG Kitlocker                    | Tested by Sven Rosvall & Greg Palmer |
 | CANXIO-A540-xx.json     | RME UK                            | Similar to CANMIO with more i/o      |
 
@@ -46,6 +46,7 @@ but have not been tested.
 | CANSERVO-A50B-2H.json   | CANMIO build option. Replaced by CANSERVO8C. | |
 | CANSERVO-A50B-3H.json   | CANMIO build option. Replaced by CANSERVO8C. | |
 | CANSERVO8C-A513-2U.json | CANMIO build option.                        | |
+| CANSERVO8C-A513-4h.json | CANMIO build option.                        | |            
 | CANSLOT-0D03-1a.json    | ??                                          | |
 | CANTOTI-A511-2q.json    | Runs on CANACE8C                            | |
 | SER1IN1OUT-FAFE-1a.json |                                             | |
