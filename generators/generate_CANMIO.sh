@@ -10,10 +10,6 @@
 
 TZ= datestring=`date +%Y%m%d%H%M`
 
-# Used to omit trailing comma at end of lists.
-ending[0]=',' # False - not end of list, add a comma.
-ending[1]=''  # True  - at end of list, omit trailing comma.
-
 # Default module type is CANMIO
 moduleName=CANMIO
 eventVariables=20
@@ -89,14 +85,13 @@ case $ver in
     ;;
 esac
 
-# A function that can be used as an index to the $ending array.
-function strneq()
+function commaIf()
 {
-  if [ "$1" = "$2" ]
+  if [ "$@" ]
   then
-    echo 0
+    echo ","
   else
-    echo 1
+    echo ""
   fi
 }
 
@@ -176,7 +171,7 @@ EOF
                 {"bitPosition": 6, "label": "Channel 15"},
                 {"bitPosition": 7, "label": "Channel 16"}
               ]
-            }${ending[$( strneq "$type" "XIO" ) ]}
+            }$( commaIf "$type" = "XIO" )
 EOF
         if [ "$type" = "XIO" ]
         then
@@ -580,7 +575,7 @@ EOF
                 },
                 {"bitPosition": 3, "overload":{"nv": $((9+$ch*7)), "labels": [
                       {"value": 0, "label": "DISABLE_OFF"},
-                      {"value": 1, "label": "DISABLE_OFF"}${ending[$(($hasAnalogue + 0 != 1))]}
+                      {"value": 1, "label": "DISABLE_OFF"}$( commaIf -n "$hasAnalogue" )
 EOF
     if [ -n "$hasAnalogue" ]
     then
@@ -606,7 +601,7 @@ EOF
                       {"value": 1, "label": "ACTION_INVERTED"},
                       {"value": 2, "label": "ACTION_INVERTED"},
                       {"value": 3, "label": "ACTION_INVERTED"},
-                      {"value": 4, "label": "ACTION_INVERTED"}${ending[$(($hasAnalogue + 0 != 1))]}
+                      {"value": 4, "label": "ACTION_INVERTED"}$( commaIf -n "$hasAnalogue" )
 EOF
     if [ -n "$hasAnalogue" ]
     then
@@ -621,7 +616,7 @@ EOF
                 },
                 {"bitPosition": 6, "label": "EVENT_INVERTED"},
                 {"bitPosition": 7, "overload":{"nv": $((9+$ch*7)), "labels": [
-                      {"value": 1, "label": "ACTION_EXPEDITED"}${ending[$(($hasServo180 + 0 != 1))]}
+                      {"value": 1, "label": "ACTION_EXPEDITED"}$( commaIf -n "$hasServo180" )
 EOF
     if [ -n "$hasServo180" ]
     then
@@ -639,7 +634,7 @@ EOF
             }
           ],
           "comment":"end of channel $ch"
-        }${ending[$(($ch == $channels))]}
+        }$(commaIf $ch != $channels)
 EOF
 done
 
@@ -666,7 +661,7 @@ do
               {"value": 1, "label": "CH$ch - Output Changed"},
               {"value": 2, "label": "CH$ch - Reached OFF"},
               {"value": 3, "label": "CH$ch - Output Changed"},
-              {"value": 4, "label": "CH$ch - AT1"}${ending[$(($hasAnalogue + 0 != 1))]}
+              {"value": 4, "label": "CH$ch - AT1"}$( commaIf -n "$hasAnalogue" )
 EOF
 
     if [ -n "$hasAnalogue" ]
@@ -683,7 +678,7 @@ EOF
         {"value": $((5+$ch*4)), "overload":{"nv": $((9+$ch*7)), "labels": [
               {"value": 0, "label": "CH$ch - TWO_ON"},
               {"value": 2, "label": "CH$ch - Reached MID"},
-              {"value": 4, "label": "CH$ch - AT2"}${ending[$(($hasAnalogue + 0 != 1))]}
+              {"value": 4, "label": "CH$ch - AT2"}$( commaIf -n "$hasAnalogue" )
 EOF
     if [ -n "$hasAnalogue" ]
     then
@@ -705,7 +700,7 @@ EOF
               {"value": 4, "label": "CH$ch - AT4"}
             ]
           }
-        }${ending[$(($ch == $channels))]}
+        }$( commaIf $ch != $channels)
 EOF
 done
 
@@ -776,7 +771,7 @@ do
                   {"value": 3, "label": "CH$ch - !Change"}
                 ]
               }
-            }${ending[$(($ch == $channels))]}
+            }$( commaIf $ch != $channels )
 EOF
 done
 
@@ -791,7 +786,7 @@ cat <<EOF
           "bit": 7
         }
       ]
-    }${ending[$(($ev == $eventVariables))]}
+    }$( commaIf $ev != $eventVariables)
 EOF
 done # ev
 

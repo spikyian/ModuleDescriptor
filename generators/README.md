@@ -89,3 +89,25 @@ and the first element of ```ending``` is used, i.e. the element with a comma.
 
 Note that for this construct we need to know the value of the last channel and put that
 into the expression used as index into ```ending```.
+
+### Alternative
+Another way is to use a function that takes a condition (same syntax as
+the builtin [] command) and returns a comma if this condition is true
+and returns nothing if the condition is false. This needs to be executed in
+a command substitution construct like this example:
+```
+cat <<EOF
+"elements" : [
+EOF
+for channel in 1 2 3 4
+do 
+  cat << EOF
+   { 
+     ...
+   }$(commaIf $channel != 4)
+EOF
+done
+cat <<EOF
+]
+EOF
+```
