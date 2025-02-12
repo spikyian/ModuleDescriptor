@@ -259,7 +259,10 @@ do
               "nodeVariableIndex": $((9+$ch*7)),
               "displayTitle": "I/O type",
               "displaySubTitle": "",
-              "options": [${ioTypes}]
+              "options": [${ioTypes}],
+              "linkedVariables": {
+                "NV": [$((10+$ch*7)), $((11+$ch*7)), $((12+$ch*7)), $((13+$ch*7)), $((14+$ch*7)), $((15+$ch*7))]
+              }
             },
             {
               "type": "NodeVariableSlider",
