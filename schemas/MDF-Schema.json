@@ -1,22 +1,6 @@
 {
-  "title": "Module Descriptor File",
-  "type": "object",
-  "required": [
-    "moduleName",
-    "nodeVariables"
-  ],
-  "properties": {
-    "moduleName": {
-      "type": "string",
-      "description": "Name of module type"
-    },
-    "timestamp": {
-      "type": "string"
-    },
-    "generated": {
-      "type": "string"
-    },
-    "nodeVariables": {
+  "$defs": {
+    "nodeVariablesSchema": {
       "type": "array",
       "items": {
         "type": "object",
@@ -40,6 +24,9 @@
           "nodeVariableIndex": { "type": "integer", "minimum": 1},
           "min": { "type": "integer", "minimum": 0},
           "max": { "type": "integer" },
+          "displayScale": { "type": "integer" },
+          "displayUnits": { "type": "string" },
+          "bit": { "type": "integer" },
           "bitCollection" : {
             "type": "array",
             "items": {
@@ -61,6 +48,9 @@
               "required": ["label", "value"],
               "additionalProperties": false
             }
+          },
+          "groupItems" : {
+            "$ref": "#/$defs/nodeVariablesSchema"            
           }
         },
         "additionalProperties": false,
@@ -74,9 +64,34 @@
           {
             "if": { "properties": { "type": { "const": "NodeVariableBitArray" }}},
             "then": { "required": [ "nodeVariableIndex", "bitCollection" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableGroup" }}},
+            "then": { "required": [ "groupItems" ]}
           }
         ]
       }
+    }
+  },
+  "title": "Module Descriptor File",
+  "type": "object",
+  "required": [
+    "moduleName",
+    "nodeVariables"
+  ],
+  "properties": {
+    "moduleName": {
+      "type": "string",
+      "description": "Name of module type"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "generated": {
+      "type": "string"
+    },
+    "nodeVariables": {
+      "$ref": "#/$defs/nodeVariablesSchema"
     },
     "eventVariables": {
       "type": "array"
