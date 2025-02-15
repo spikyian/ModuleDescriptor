@@ -21,21 +21,49 @@
               "NodeVariableTabs"
             ]
           },
+          "comment": { "type": "string"},
           "nodeVariableIndex": { "type": "integer", "minimum": 1},
+          "linkedVariables": {
+            "type": "object",
+            "properties": {
+              "NV": {
+                "type": "array",
+                "items": { "type": "integer"}
+              }
+            }
+          },
           "min": { "type": "integer", "minimum": 0},
           "max": { "type": "integer" },
           "displayScale": { "type": "numeric" },
           "displayUnits": { "type": "string" },
           "displayOffset": { "type": "integer" },
           "bit": { "type": "integer" },
+          "visibilityLogic" : {"type": "object"},
+          "outputOnWrite": {"type": "boolean"},
           "bitCollection" : {
             "type": "array",
             "items": {
               "properties": {
                 "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
-                "label": { "type": "string" }
+                "label": { "type": "string" },
+                "overload": {
+                  "type": "object",
+                  "properties": {
+                    "nv": { "type": "integer" },
+                    "labels": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "value": {"type": "integer" },
+                          "label": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
               },
-              "required": ["bitPosition", "label"],
+              "required": ["bitPosition"],
               "additionalProperties": false
             }
           },
