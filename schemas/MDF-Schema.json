@@ -23,6 +23,8 @@
           },
           "comment": { "type": "string"},
           "nodeVariableIndex": { "type": "integer", "minimum": 1},
+          "nodeVariableIndexHigh": { "type": "integer", "minimum": 1},
+          "nodeVariableIndexLow": { "type": "integer", "minimum": 1},
           "linkedVariables": {
             "type": "object",
             "properties": {
@@ -37,7 +39,10 @@
           "displayScale": { "type": "numeric" },
           "displayUnits": { "type": "string" },
           "displayOffset": { "type": "integer" },
-          "bit": { "type": "integer" },
+          "bit": { "type": "integer", "minimum": 0, "maximum": 7 },
+          "bitMask": { "type": "integer", "minimum": 0, "maximum": 255 },
+          "startBit": { "type": "integer", "minimum": 0, "maximum": 7 },
+          "endBit": { "type": "integer", "minimum": 0, "maximum": 7 },
           "visibilityLogic" : {"type": "object"},
           "outputOnWrite": {"type": "boolean"},
           "bitCollection" : {
@@ -113,6 +118,14 @@
           {
             "if": { "properties": { "type": { "const": "NodeVariableTab" }}},
             "then": { "required": [ "items" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableNumber" }}},
+            "then": { "required": [ "nodeVariableIndex" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableDual" }}},
+            "then": { "required": [ "nodeVariableIndexHigh", "nodeVariableIndexLow" ]}
           }
         ]
       }
