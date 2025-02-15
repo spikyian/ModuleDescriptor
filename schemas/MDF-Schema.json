@@ -24,8 +24,9 @@
           "nodeVariableIndex": { "type": "integer", "minimum": 1},
           "min": { "type": "integer", "minimum": 0},
           "max": { "type": "integer" },
-          "displayScale": { "type": "integer" },
+          "displayScale": { "type": "numeric" },
           "displayUnits": { "type": "string" },
+          "displayOffset": { "type": "integer" },
           "bit": { "type": "integer" },
           "bitCollection" : {
             "type": "array",
@@ -51,6 +52,18 @@
           },
           "groupItems" : {
             "$ref": "#/$defs/nodeVariablesSchema"            
+          },
+          "tabPanels" : {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "displayTitle": {"type": "string"},
+                "items": {
+                  "$ref": "#/$defs/nodeVariablesSchema"
+                }
+              }
+            }
           }
         },
         "additionalProperties": false,
@@ -68,6 +81,10 @@
           {
             "if": { "properties": { "type": { "const": "NodeVariableGroup" }}},
             "then": { "required": [ "groupItems" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableTab" }}},
+            "then": { "required": [ "items" ]}
           }
         ]
       }
