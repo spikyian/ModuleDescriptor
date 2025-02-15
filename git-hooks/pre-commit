@@ -14,7 +14,7 @@ do
         *.json) ;;
         *) continue ;;
     esac
-    if git diff --staged --ignore-cr-at-eol -I'"timestamp" *:' --exit-code --quiet "$f" 2> /dev/null
+    if git diff --staged --ignore-cr-at-eol -I'"timestamp" *: *"' --exit-code --quiet "$f" 2> /dev/null
     then
         # File has not changed other than the timestamp, will roll back. 
         # This change to "timestamp" has probably come from a generator.
@@ -23,7 +23,7 @@ do
     fi
     
     # Update the timestamp string
-    ( rm $f ; sed -e "/\"timestamp\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
+    ( rm $f ; sed -e "/\"timestamp\" *: *\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
     git add $f
 done
 
@@ -34,7 +34,7 @@ do
         *.json) ;;
         *) continue ;;
     esac
-    if git diff --ignore-cr-at-eol -I'"timestamp" *:' --exit-code --quiet "$f" 2> /dev/null
+    if git diff --ignore-cr-at-eol -I'"timestamp" *: *"' --exit-code --quiet "$f" 2> /dev/null
     then
         # File has not changed other than the timestamp, will roll back." 
         # This change to "timestamp" has probably come from a generator.
@@ -43,7 +43,7 @@ do
     fi
 
     # Update the timestamp string
-    ( rm $f ; sed -e "/\"timestamp\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
+    ( rm $f ; sed -e "/\"timestamp\" *: *\"/s/:.*\$/: \"$datestring\",/" > $f ) < $f
     git add $f
 done
 
