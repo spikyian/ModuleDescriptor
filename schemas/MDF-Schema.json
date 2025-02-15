@@ -1,0 +1,89 @@
+{
+  "title": "Module Descriptor File",
+  "type": "object",
+  "required": [
+    "moduleName",
+    "nodeVariables"
+  ],
+  "properties": {
+    "moduleName": {
+      "type": "string",
+      "description": "Name of module type"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "generated": {
+      "type": "string"
+    },
+    "nodeVariables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "type"],
+        "properties": {
+          "displayTitle": { "type": "string"},
+          "displaySubTitle": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "NodeVariableBitArray",
+              "NodeVariableBitSingle",
+              "NodeVariableDual",
+              "NodeVariableGroup",
+              "NodeVariableNumber",
+              "NodeVariableSlider",
+              "NodeVariableSelect",
+              "NodeVariableTabs"
+            ]
+          },
+          "nodeVariableIndex": { "type": "integer", "minimum": 1},
+          "min": { "type": "integer", "minimum": 0},
+          "max": { "type": "integer" },
+          "bitCollection" : {
+            "type": "array",
+            "items": {
+              "properties": {
+                "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
+                "label": { "type": "string" }
+              },
+              "required": ["bitPosition", "label"],
+              "additionalProperties": false
+            }
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "label": { "type": "string" },
+                "value": { "type": "integer" }
+              },
+              "required": ["label", "value"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false,
+        "if": { "properties": { "type": { "const": "NodeVariableSelect" }}},
+        "then": { "required": [ "nodeVariableIndex", "options" ]},
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableBitSingle" }}},
+            "then": { "required": [ "nodeVariableIndex", "bit" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableBitArray" }}},
+            "then": { "required": [ "nodeVariableIndex", "bitCollection" ]}
+          }
+        ]
+      }
+    },
+    "eventVariables": {
+      "type": "array"
+    },
+    "NVsetNeedsLearnMode": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
