@@ -31,10 +31,26 @@
       "type": "array",
       "items": {
         "properties": {
+          "value": { "type": "integer" },
           "label": { "type": "string" },
-          "value": { "type": "integer" }
+          "overload": {
+            "type": "object",
+            "properties": {
+              "nv": {"type": "integer"},
+              "labels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "value": {"type": "integer"},
+                    "label": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
         },
-        "required": ["label", "value"],
+        "required": ["value"],
         "additionalProperties": false
       }
     },
