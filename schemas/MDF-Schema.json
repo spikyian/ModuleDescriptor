@@ -262,10 +262,16 @@
       "type": "string",
       "description": "Name of module type"
     },
+    "moduleDescriptorFilename": {
+      "type": "string"
+    },
     "timestamp": {
       "type": "string"
     },
     "generated": {
+      "type": "string"
+    },
+    "comment": { 
       "type": "string"
     },
     "nodeVariables": {
