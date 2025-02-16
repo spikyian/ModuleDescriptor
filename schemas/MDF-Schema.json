@@ -129,6 +129,136 @@
           }
         ]
       }
+    },
+    "eventVariablesSchema": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "type"],
+        "properties": {
+          "displayTitle": { "type": "string"},
+          "displaySubTitle": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "EventVariableBitArray",
+              "EventVariableBitSingle",
+              "EventVariableDual",
+              "EventVariableGroup",
+              "EventVariableNumber",
+              "EventVariableSlider",
+              "EventVariableSelect",
+              "EventVariableTabs"
+            ]
+          },
+          "comment": { "type": "string"},
+          "eventVariableIndex": { "type": "integer", "minimum": 1},
+          "eventVariableIndexHigh": { "type": "integer", "minimum": 1},
+          "eventVariableIndexLow": { "type": "integer", "minimum": 1},
+          "linkedVariables": {
+            "type": "object",
+            "properties": {
+              "NV": {
+                "type": "array",
+                "items": { "type": "integer"}
+              }
+            }
+          },
+          "min": { "type": "integer", "minimum": 0},
+          "max": { "type": "integer" },
+          "displayScale": { "type": "numeric" },
+          "displayUnits": { "type": "string" },
+          "displayOffset": { "type": "integer" },
+          "bit": { "type": "integer", "minimum": 0, "maximum": 7 },
+          "bitMask": { "type": "integer", "minimum": 0, "maximum": 255 },
+          "startBit": { "type": "integer", "minimum": 0, "maximum": 7 },
+          "endBit": { "type": "integer", "minimum": 0, "maximum": 7 },
+          "visibilityLogic" : {"type": "object"},
+          "outputOnWrite": {"type": "boolean"},
+          "bitCollection" : {
+            "type": "array",
+            "items": {
+              "properties": {
+                "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
+                "label": { "type": "string" },
+                "overload": {
+                  "type": "object",
+                  "properties": {
+                    "nv": { "type": "integer" },
+                    "labels": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "value": {"type": "integer" },
+                          "label": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "required": ["bitPosition"],
+              "additionalProperties": false
+            }
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "label": { "type": "string" },
+                "value": { "type": "integer" }
+              },
+              "required": ["label", "value"],
+              "additionalProperties": false
+            }
+          },
+          "groupItems" : {
+            "$ref": "#/$defs/eventVariablesSchema"            
+          },
+          "tabPanels" : {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "displayTitle": {"type": "string"},
+                "items": {
+                  "$ref": "#/$defs/eventVariablesSchema"
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false,
+        "if": { "properties": { "type": { "const": "EventVariableSelect" }}},
+        "then": { "required": [ "eventVariableIndex", "options" ]},
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "EventVariableBitSingle" }}},
+            "then": { "required": [ "eventVariableIndex", "bit" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableBitArray" }}},
+            "then": { "required": [ "eventVariableIndex", "bitCollection" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableGroup" }}},
+            "then": { "required": [ "groupItems" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableTab" }}},
+            "then": { "required": [ "items" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableNumber" }}},
+            "then": { "required": [ "eventVariableIndex" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableDual" }}},
+            "then": { "required": [ "eventVariableIndexHigh", "eventVariableIndexLow" ]}
+          }
+        ]
+      }
     }
   },
   "title": "Module Descriptor File",
@@ -152,7 +282,7 @@
       "$ref": "#/$defs/nodeVariablesSchema"
     },
     "eventVariables": {
-      "type": "array"
+      "$ref": "#/$defs/eventVariablesSchema"
     },
     "NVsetNeedsLearnMode": {
       "type": "boolean"
