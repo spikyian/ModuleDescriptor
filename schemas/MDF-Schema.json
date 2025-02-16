@@ -1,5 +1,43 @@
 {
   "$defs": {
+    "bitCollectionSchema": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
+          "label": { "type": "string" },
+          "overload": {
+            "type": "object",
+            "properties": {
+              "nv": { "type": "integer" },
+              "labels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "value": {"type": "integer" },
+                    "label": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": ["bitPosition"],
+        "additionalProperties": false
+      }
+    },
+    "optionsSchema": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "integer" }
+        },
+        "required": ["label", "value"],
+        "additionalProperties": false
+      }
+    },
     "nodeVariablesSchema": {
       "type": "array",
       "items": {
@@ -46,42 +84,10 @@
           "visibilityLogic" : {"type": "object"},
           "outputOnWrite": {"type": "boolean"},
           "bitCollection" : {
-            "type": "array",
-            "items": {
-              "properties": {
-                "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
-                "label": { "type": "string" },
-                "overload": {
-                  "type": "object",
-                  "properties": {
-                    "nv": { "type": "integer" },
-                    "labels": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "value": {"type": "integer" },
-                          "label": { "type": "string" }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "required": ["bitPosition"],
-              "additionalProperties": false
-            }
+            "$ref": "#/$defs/bitCollectionSchema"
           },
           "options": {
-            "type": "array",
-            "items": {
-              "properties": {
-                "label": { "type": "string" },
-                "value": { "type": "integer" }
-              },
-              "required": ["label", "value"],
-              "additionalProperties": false
-            }
+            "$ref": "#/$defs/optionsSchema"
           },
           "groupItems" : {
             "$ref": "#/$defs/nodeVariablesSchema"            
@@ -176,42 +182,10 @@
           "visibilityLogic" : {"type": "object"},
           "outputOnWrite": {"type": "boolean"},
           "bitCollection" : {
-            "type": "array",
-            "items": {
-              "properties": {
-                "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
-                "label": { "type": "string" },
-                "overload": {
-                  "type": "object",
-                  "properties": {
-                    "nv": { "type": "integer" },
-                    "labels": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "value": {"type": "integer" },
-                          "label": { "type": "string" }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "required": ["bitPosition"],
-              "additionalProperties": false
-            }
+            "$ref": "#/$defs/bitCollectionSchema"
           },
           "options": {
-            "type": "array",
-            "items": {
-              "properties": {
-                "label": { "type": "string" },
-                "value": { "type": "integer" }
-              },
-              "required": ["label", "value"],
-              "additionalProperties": false
-            }
+            "$ref": "#/$defs/optionsSchema"
           },
           "groupItems" : {
             "$ref": "#/$defs/eventVariablesSchema"            
