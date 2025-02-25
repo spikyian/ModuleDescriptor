@@ -1,0 +1,22 @@
+{
+  "timestamp": "202502252224",
+  "moduleName" : "CAN4IN4OUT",
+  "nodeVariables": [
+    {
+      "type": "NodeVariableNumber",
+      "nodeVariableIndex": 1,
+      "displayTitle" : "Nothing"
+    }
+  ],
+  "eventVariables":[
+    {
+      "type": "EventVariableSelect",
+      "eventVariableIndex": 2,
+      "displayTitle": "LED Control",
+      "options": [
+        {"label": "Normal", "value": 1},
+        {"label": "Blink", "value": 2}
+      ]
+    }
+  ]
+}
