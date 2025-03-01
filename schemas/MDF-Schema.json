@@ -90,7 +90,7 @@
           },
           "min": { "type": "integer", "minimum": 0},
           "max": { "type": "integer" },
-          "displayScale": { "type": "numeric" },
+          "displayScale": { "type": "number" },
           "displayUnits": { "type": "string" },
           "displayOffset": { "type": "integer" },
           "bit": { "type": "integer", "minimum": 0, "maximum": 7 },
@@ -188,7 +188,7 @@
           },
           "min": { "type": "integer", "minimum": 0},
           "max": { "type": "integer" },
-          "displayScale": { "type": "numeric" },
+          "displayScale": { "type": "number" },
           "displayUnits": { "type": "string" },
           "displayOffset": { "type": "integer" },
           "bit": { "type": "integer", "minimum": 0, "maximum": 7 },
@@ -258,6 +258,10 @@
     "nodeVariables"
   ],
   "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
     "moduleName": {
       "type": "string",
       "description": "Name of module type"
