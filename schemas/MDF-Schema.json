@@ -272,6 +272,8 @@
     "comment": {"type": "string"},
     "nodeVariables": {"$ref": "#/$defs/nodeVariablesSchema"},
     "eventVariables": {"$ref": "#/$defs/eventVariablesSchema"},
+    "nodeVariableInformation": {"type": "string"},
+    "eventVariableInformation": {"type": "string"},
     "NVsetNeedsLearnMode": {"type": "boolean"}
   },
   "additionalProperties": false
