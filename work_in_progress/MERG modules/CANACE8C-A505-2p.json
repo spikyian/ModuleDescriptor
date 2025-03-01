@@ -1,5 +1,5 @@
 {
-  "timestamp": "202502142256",
+  "timestamp": "202503012141",
   "moduleName": "CANACE8C",
   "nodeVariables": [
     {
@@ -357,6 +357,26 @@
           "bit": 7
         }
       ]
+    },
+    {
+		"type": "NodeVariableGroup",
+		"displayTitle": "General",
+		"groupItems": [
+						{
+						  "type": "NodeVariableSlider",
+						  "nodeVariableIndex": 4,
+						  "displayTitle": "ON Delay",
+						  "displayScale": 10,
+						  "displayUnits": "Milli Seconds"
+						},
+						{
+						  "type": "NodeVariableSlider",
+						  "nodeVariableIndex": 5,
+						  "displayTitle": "OFF Delay",
+						  "displayScale": 10,
+						  "displayUnits": "Milli Seconds"
+						}
+					]
     }
   ],
   "eventVariables": [
@@ -364,6 +384,7 @@
       "type": "EventVariableSelect",
       "eventVariableIndex": 1,
       "displayTitle": "Options",
+      "bitMask": 1,
       "options": [
         { "label": "Start of Day event", "value": 0 },
         { "label": "Route event", "value": 1 },
