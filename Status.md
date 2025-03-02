@@ -11,21 +11,25 @@ to the ModuleDescriptor repository.
 The following files are complete and need a final review before moving to
 the production directory.
 
-| Filename                | Kit Source                        | Status                               |
-|-------------------------|-----------------------------------|--------------------------------------|
-| CANACC5-A502-2U.json    | Kit Locker Classic                | Functionally same as 2V              |
-| CANACC5-A502-2V.json    | Kit Locker Classic                | tested by David Ellis                |
-| CANACC8-A503-2V.json    | Discontinued                      | uses same code base as CANACC5       |
+| Filename                | Kit Source                                           | Status                               |
+|-------------------------|------------------------------------------------------|-------------------------|
+| CANACC5-A502-2U.json    | Kit Locker Classic                                   | Functionally same as 2V              |
+| CANACC5-A502-2V.json    | Kit Locker Classic                                   | tested by David Ellis                |
+| CANACC8-A503-2V.json    | Discontinued                                         | uses same code base as CANACC5       |
 | CANACE8C-A505-2n.json   | Kit Locker Classic                | Functionally same as 2q              |
 | CANACE8C-A505-2p.json   | Kit Locker Classic                | Functionally same as 2q              |
 | CANACE8C-A505-2q.json   | Kit Locker Classic                | Tested by Sven Rosvall               |
-| CANCMD-A50A-4d.json     | MERG Kitlocker                    | Tested by Sven Rosvall               |
-| CANMIO-A520-xx.json     | Universal firmware for CANMIO & CANVxxx kits. | Tested by Sven Rosvall               |
+| CANCMD-A50A-4d.json     | MERG Kitlocker                                       | Tested by Sven Rosvall               |
+| CANCMD-A50A-4f.json     | MERG Kitlocker                                       | Tested by Simon West                 |
+| CANCMDB-A553-4f.json    | In development                                       | Similar to CANCMD                    |
+| CANCSD-A537-4d.json     | RME UK                                               | Similar to CANCMD                    |
+| CANCSD-A537-4f.json     | RME UK                                               | Similar to CANCMD                    |
+| CANMIO-A520-xx.json     | Universal firmware for CANMIO & CANVxxx kits.        | Tested by Sven Rosvall               |
 | CANMIO-OUT-A534-5b.json | CANMIO-OUT in RME UK; CANVOUT in Kit Locker Advanced | uses same code base as CANACC5       |
-| CANMIO-SVO-A532-4S.json | MERG Kitlocker CANMIO & CANVSERVO | Tested by Sven Rosvall               |
+| CANMIO-SVO-A532-4S.json | MERG Kitlocker CANMIO & CANVSERVO                    | Tested by Sven Rosvall               |
 | CANSERVO8C-A513-4S.json | CANMIO build option.              | Tested by Greg Palmer.               |
-| CANPAN-A51D-xx.json     | MERG Kitlocker                    | Tested by Sven Rosvall & Greg Palmer |
-| CANXIO-A540-xx.json     | RME UK                            | Similar to CANMIO with more i/o      |
+| CANPAN-A51D-xx.json     | MERG Kitlocker                                       | Tested by Sven Rosvall & Greg Palmer |
+| CANXIO-A540-xx.json     | RME UK                                               | Similar to CANMIO with more i/o      |
 
 ## Small Changes Required
 The following files are in progress and only small changes are required
