@@ -122,9 +122,11 @@
           }
         },
         "additionalProperties": false,
-        "if": { "properties": { "type": { "const": "NodeVariableSelect" }}},
-        "then": { "required": [ "nodeVariableIndex", "options" ]},
         "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableSelect" }}},
+            "then": { "required": [ "nodeVariableIndex", "options" ]}
+          },
           {
             "if": { "properties": { "type": { "const": "NodeVariableBitSingle" }}},
             "then": { "required": [ "nodeVariableIndex", "bit" ]}
@@ -180,7 +182,7 @@
           "linkedVariables": {
             "type": "object",
             "properties": {
-              "NV": {
+              "EV": {
                 "type": "array",
                 "items": { "type": "integer"}
               }
@@ -220,9 +222,11 @@
           }
         },
         "additionalProperties": false,
-        "if": { "properties": { "type": { "const": "EventVariableSelect" }}},
-        "then": { "required": [ "eventVariableIndex", "options" ]},
         "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "EventVariableSelect" }}},
+            "then": { "required": [ "eventVariableIndex", "options" ]}
+          },
           {
             "if": { "properties": { "type": { "const": "EventVariableBitSingle" }}},
             "then": { "required": [ "eventVariableIndex", "bit" ]}
