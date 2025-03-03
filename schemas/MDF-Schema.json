@@ -3,17 +3,24 @@
     "bitCollectionSchema": {
       "type": "array",
       "items": {
+        "type": "object",
+        "required": ["bitPosition"],
+        "additionalProperties": false,
         "properties": {
           "bitPosition": { "type": "integer", "minimum": 0, "maximum": 7},
           "label": { "type": "string" },
           "overload": {
             "type": "object",
+            "required": ["nv", "labels"],
+            "additionalProperties": false,
             "properties": {
               "nv": { "type": "integer" },
               "labels": {
                 "type": "array",
                 "items": {
                   "type": "object",
+                  "required": ["value", "label"],
+                  "additionalProperties": false,
                   "properties": {
                     "value": {"type": "integer" },
                     "label": { "type": "string" }
@@ -22,25 +29,29 @@
               }
             }
           }
-        },
-        "required": ["bitPosition"],
-        "additionalProperties": false
+        }
       }
     },
     "optionsSchema": {
       "type": "array",
       "items": {
+        "required": ["value"],
+        "additionalProperties": false,
         "properties": {
           "value": { "type": "integer" },
           "label": { "type": "string" },
           "overload": {
             "type": "object",
+            "required": ["nv", "labels"],
+            "additionalProperties": false,
             "properties": {
               "nv": {"type": "integer"},
               "labels": {
                 "type": "array",
                 "items": {
                   "type": "object",
+                  "required": ["value", "label"],
+                  "additionalProperties": false,
                   "properties": {
                     "value": {"type": "integer"},
                     "label": {"type": "string"}
@@ -49,9 +60,7 @@
               }
             }
           }
-        },
-        "required": ["value"],
-        "additionalProperties": false
+        }
       }
     },
     "nodeVariablesSchema": {
@@ -126,6 +135,10 @@
           {
             "if": { "properties": { "type": { "const": "NodeVariableSelect" }}},
             "then": { "required": [ "nodeVariableIndex", "options" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "NodeVariableSlider" }}},
+            "then": { "required": [ "nodeVariableIndex" ]}
           },
           {
             "if": { "properties": { "type": { "const": "NodeVariableBitSingle" }}},
@@ -226,6 +239,10 @@
           {
             "if": { "properties": { "type": { "const": "EventVariableSelect" }}},
             "then": { "required": [ "eventVariableIndex", "options" ]}
+          },
+          {
+            "if": { "properties": { "type": { "const": "EventVariableSlider" }}},
+            "then": { "required": [ "eventVariableIndex" ]}
           },
           {
             "if": { "properties": { "type": { "const": "EventVariableBitSingle" }}},
